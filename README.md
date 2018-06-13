@@ -1,6 +1,6 @@
 # daten.berlin.de Usage Statistics
 
-This folder contains JSON data with [usage statistics](daten_berlin_de.stats.json) (page impressions and page visits) for the Berlin Open Data Portal https://daten.berlin.de. Statistics are collected per month, both for the domain as such, and for all datasets (pages below `/datensaetze`).
+This folder contains JSON data with usage statistics (page impressions and page visits) for the Berlin Open Data Portal https://daten.berlin.de. Statistics are collected per month, both for the domain as such, and for all datasets (pages below `/datensaetze`).
 
 The structure of the data is as follows:
 
