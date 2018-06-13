@@ -54,24 +54,6 @@ The structure of the data is as follows:
             ...
           }
         }
-      },
-      "anwendungen": {
-        "page_uri": "daten.berlin.de%2Fanwendungen",
-        "earliest": "2013-04-01",
-        "latest": "2018-05-01",
-        "sub_page_counts": {
-          "2018-05": {
-            "ozon-sonar": {
-              "impressions": 127,
-              "visits": 120
-            },
-            "umweltzone-android-app": {
-              "impressions": 116,
-              "visits": 104
-            },
-            ...
-          }
-        }
       }
     }
   }
