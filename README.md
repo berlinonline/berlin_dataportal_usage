@@ -1,6 +1,18 @@
 # daten.berlin.de Usage Statistics
 
-This folder contains JSON data with usage statistics (page impressions and page visits) for the Berlin Open Data Portal https://daten.berlin.de. Statistics are collected per month, both for the domain as such, and for all datasets (pages below `/datensaetze`).
+This folder contains usage statistics (page impressions and page visits) for the Berlin Open Data Portal https://daten.berlin.de. Statistics are collected per month, both for the domain as such, and for all datasets (pages below `/datensaetze`).
+
+Statistics are given in both CSV (split over two files) and JSON (one combined file).
+
+## daten_berlin_de.domain_stats.csv
+
+Domain-wide statistics. One row per month, columns for page impressions and page visits.
+
+## daten_berlin_de.page_stats.datensaetze.csv
+
+Per-dataset statistics. One row per dataset, two columns per month (page impressions and page visits).
+
+## daten_berlin_de.stats.json
 
 The structure of the data is as follows:
 
