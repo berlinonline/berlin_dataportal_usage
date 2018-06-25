@@ -1,6 +1,6 @@
 # daten.berlin.de Usage Statistics
 
-This folder contains usage statistics (page impressions and page visits) for the Berlin Open Data Portal https://daten.berlin.de. Statistics are collected per month, both for the domain as such, and for all datasets (pages below `/datensaetze`).
+This dataset contains usage statistics (page impressions and page visits) for the Berlin Open Data Portal https://daten.berlin.de. Statistics are collected per month, both for the domain as such, and for all datasets (pages below `/datensaetze`).
 
 Statistics are given in both CSV (split over two files) and JSON (one combined file).
 
@@ -8,9 +8,24 @@ Statistics are given in both CSV (split over two files) and JSON (one combined f
 
 Domain-wide statistics. One row per month, columns for page impressions and page visits.
 
+```csv
+month,impressions,visits
+2018-05,28563,10436
+2018-04,24779,9282
+2018-03,27728,10548
+...
+```
+
 ## daten_berlin_de.page_stats.datensaetze.csv
 
 Per-dataset statistics. One row per dataset, two columns per month (page impressions and page visits).
+
+```
+page,2013-04-01 pi,2013-04-01 pv, ... ,2018-05-01 pi,2018-05-01 pv
+liste-der-h%C3%A4ufigen-vornamen-2017,,, ... ,279,246
+alkis-berlin-amtliches-liegenschaftskatasterinformationssystem,,, ... ,211,185
+...
+```
 
 ## daten_berlin_de.stats.json
 
