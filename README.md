@@ -89,7 +89,7 @@ The structure of the data is as follows:
 
 ---
 
-Dataset URL: https://daten.berlin.de/datensaetze/zugriffsstatistik-daten-berlin-de
+Dataset URL: https://daten.berlin.de/datensaetze/zugriffsstatistik-datenberlinde
 
 Last Changed: 2018-06-25
 
