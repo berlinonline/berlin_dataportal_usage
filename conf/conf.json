@@ -1,0 +1,7 @@
+{
+    "boss_uri": "https://boss.berlinonline.de" ,
+    "site_uri": "daten.berlin.de" ,
+    "paths": [
+        "datensaetze"
+    ]
+}
