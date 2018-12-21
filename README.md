@@ -91,6 +91,6 @@ The structure of the data is as follows:
 
 Dataset URL: https://daten.berlin.de/datensaetze/zugriffsstatistik-datenberlinde
 
-Last Changed: 2018-11-09
+Last Changed: 2018-12-21
 
 2018, Knud Möller, BerlinOnline Stadtportal GmbH & Co. KG
