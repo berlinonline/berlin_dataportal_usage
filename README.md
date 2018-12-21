@@ -93,4 +93,4 @@ Dataset URL: https://daten.berlin.de/datensaetze/zugriffsstatistik-datenberlinde
 
 2018, Knud Möller, BerlinOnline Stadtportal GmbH & Co. KG
 
-Last Changed: 2018-12-21
+Last changed: 2018-12-21
