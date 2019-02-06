@@ -6,6 +6,8 @@ Statistics are given in both CSV (split over two files) and JSON (one combined f
 
 ## daten_berlin_de.domain_stats.csv
 
+Download here: [daten_berlin_de.domain_stats.csv](daten_berlin_de.domain_stats.csv)
+
 Domain-wide statistics. One row per month, columns for page impressions and page visits.
 
 ```csv
@@ -18,6 +20,8 @@ month,impressions,visits
 
 ## daten_berlin_de.page_stats.datensaetze.csv
 
+Download here: [daten_berlin_de.page_stats.datensaetze.csv](daten_berlin_de.page_stats.datensaetze.csv)
+
 Per-dataset statistics. One row per dataset, two columns per month (page impressions and page visits).
 
 ```
@@ -28,6 +32,8 @@ alkis-berlin-amtliches-liegenschaftskatasterinformationssystem,,, ... ,211,185
 ```
 
 ## daten_berlin_de.stats.json
+
+Download here: [daten_berlin_de.stats.json.tgz](daten_berlin_de.stats.json.tgz) (compressed)
 
 The structure of the data is as follows:
 
@@ -95,6 +101,6 @@ All software in this repository is published under the [MIT License](LICENSE). A
 
 Dataset URL: https://daten.berlin.de/datensaetze/zugriffsstatistik-datenberlinde
 
-2018, Knud Möller, BerlinOnline Stadtportal GmbH & Co. KG
+2019, Knud Möller, BerlinOnline Stadtportal GmbH & Co. KG
 
 Last changed: 2019-02-06
