@@ -6,7 +6,7 @@ Statistics are given in both CSV (split over two files) and JSON (one combined f
 
 ## daten_berlin_de.domain_stats.csv
 
-Download here: [daten_berlin_de.domain_stats.csv](daten_berlin_de.domain_stats.csv)
+Download here: [daten_berlin_de.domain_stats.csv](https://berlinonline.github.io/berlin_dataportal_usage/daten_berlin_de.domain_stats.csv)
 
 Domain-wide statistics. One row per month, columns for page impressions and page visits.
 
@@ -20,7 +20,7 @@ month,impressions,visits
 
 ## daten_berlin_de.page_stats.datensaetze.csv
 
-Download here: [daten_berlin_de.page_stats.datensaetze.csv](daten_berlin_de.page_stats.datensaetze.csv)
+Download here: [daten_berlin_de.page_stats.datensaetze.csv](https://berlinonline.github.io/berlin_dataportal_usage/daten_berlin_de.page_stats.datensaetze.csv)
 
 Per-dataset statistics. One row per dataset, two columns per month (page impressions and page visits).
 
@@ -33,7 +33,7 @@ alkis-berlin-amtliches-liegenschaftskatasterinformationssystem,,, ... ,211,185
 
 ## daten_berlin_de.stats.json
 
-Download here: [daten_berlin_de.stats.json.tgz](daten_berlin_de.stats.json.tgz) (compressed)
+Download here: [daten_berlin_de.stats.json.tgz](https://berlinonline.github.io/berlin_dataportal_usage/daten_berlin_de.stats.json.tgz) (compressed)
 
 The structure of the data is as follows:
 
