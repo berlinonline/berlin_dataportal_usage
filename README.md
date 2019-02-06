@@ -87,6 +87,10 @@ The structure of the data is as follows:
 }
 ```
 
+### License
+
+All software in this repository is published under the [MIT License](LICENSE). All data in this repository (in particular the `.csv` and `.xlsx` files) is published under [CC BY 3.0 DE](https://creativecommons.org/licenses/by/3.0/de/).
+
 ---
 
 Dataset URL: https://daten.berlin.de/datensaetze/zugriffsstatistik-datenberlinde
