@@ -1,6 +1,6 @@
 # daten.berlin.de Usage Statistics
 
-This dataset contains usage statistics (page impressions and page visits) for the Berlin Open Data Portal https://daten.berlin.de. Statistics are collected per month, both for the domain as such, and for all datasets (pages below `/datensaetze`).
+This dataset contains usage statistics (page impressions and page visits) for the Berlin Open Data Portal [https://daten.berlin.de](https://daten.berlin.de). Statistics are collected per month, both for the domain as such, and for all datasets (pages below `/datensaetze`).
 
 Statistics are given in both CSV (split over two files) and JSON (one combined file).
 
@@ -99,8 +99,8 @@ All software in this repository is published under the [MIT License](LICENSE). A
 
 ---
 
-Dataset URL: https://daten.berlin.de/datensaetze/zugriffsstatistik-datenberlinde
+Dataset URL: [https://daten.berlin.de/datensaetze/zugriffsstatistik-datenberlinde](https://daten.berlin.de/datensaetze/zugriffsstatistik-datenberlinde)
 
-2019, Knud Möller, BerlinOnline Stadtportal GmbH & Co. KG
+2019, Knud Möller, [BerlinOnline Stadtportal GmbH & Co. KG](https://www.berlinonline.net)
 
 Last changed: 2019-02-06
