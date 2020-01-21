@@ -4,9 +4,13 @@ This dataset contains usage statistics (page impressions and page visits) for th
 
 Statistics are given in both CSV (split over two files) and JSON (one combined file).
 
+Until 2019-12-31, usage statistics were collected with our internal _BerlinOnline Site Statistics_ (BOSS) tool. As of 2020-01-01 we have stopped using BOSS on the Berlin Open Data Portal, and replaced it with [Webtrekk](https://www.webtrekk.com). Webtrekk has been in use since February 2019. While BOSS and Webtrekk provide the same metrics, the actual results differ. We have written a little bit on [how and possible why BOSS and Webtrekk differ with respect to their results](boss-vs-webtrekk.md).
+
+The historic BOSS data has been moved to `data/historic`, while the current Webtrekk data resides in `data/current`.
+
 ## daten_berlin_de.domain_stats.csv
 
-Download here: [daten_berlin_de.domain_stats.csv](https://berlinonline.github.io/berlin_dataportal_usage/daten_berlin_de.domain_stats.csv)
+Download here: [daten_berlin_de.domain_stats.csv](https://berlinonline.github.io/berlin_dataportal_usage/data/current/daten_berlin_de.domain_stats.csv)
 
 Domain-wide statistics. One row per month, columns for page impressions and page visits.
 
@@ -20,7 +24,7 @@ month,impressions,visits
 
 ## daten_berlin_de.page_stats.datensaetze.csv
 
-Download here: [daten_berlin_de.page_stats.datensaetze.csv](https://berlinonline.github.io/berlin_dataportal_usage/daten_berlin_de.page_stats.datensaetze.csv)
+Download here: [daten_berlin_de.page_stats.datensaetze.csv](https://berlinonline.github.io/berlin_dataportal_usage/data/current/daten_berlin_de.page_stats.datensaetze.csv)
 
 Per-dataset statistics. One row per dataset, two columns per month (page impressions and page visits).
 
@@ -33,10 +37,11 @@ alkis-berlin-amtliches-liegenschaftskatasterinformationssystem,,, ... ,211,185
 
 ## daten_berlin_de.stats.json
 
-Download here: [daten_berlin_de.stats.json.tgz](https://berlinonline.github.io/berlin_dataportal_usage/daten_berlin_de.stats.json.tgz) (compressed)
+Download here: [daten_berlin_de.stats.json.tgz](https://berlinonline.github.io/berlin_dataportal_usage/data/current/daten_berlin_de.stats.json.tgz) (compressed)
 
 The structure of the data is as follows:
 
+* `/source`- From which source system the statistics were generated. One of `[ "Webtrekk", "Boss" ]`.
 * `/timestamp` - when these usage statistics were generated
 * `/stats/site_uri` - domain of the data portal
 * `/stats/earliest` - first month for which domain-wide statistics have been collected
@@ -101,6 +106,6 @@ All software in this repository is published under the [MIT License](LICENSE). A
 
 Dataset URL: [https://daten.berlin.de/datensaetze/zugriffsstatistik-datenberlinde](https://daten.berlin.de/datensaetze/zugriffsstatistik-datenberlinde)
 
-2019, Knud Möller, [BerlinOnline Stadtportal GmbH & Co. KG](https://www.berlinonline.net)
+2020, Knud Möller, [BerlinOnline Stadtportal GmbH & Co. KG](https://www.berlinonline.net)
 
-Last changed: 2020-01-02
+Last changed: 2020-01-21
