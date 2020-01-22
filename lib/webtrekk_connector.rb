@@ -40,7 +40,6 @@ class WebtrekkConnector
             :method => method
         }
         response = make_https_request(URI(@endpoint), payload)
-        # @logger.info("response: #{response}")
         data = JSON.parse(response)
         data['result']
     end
