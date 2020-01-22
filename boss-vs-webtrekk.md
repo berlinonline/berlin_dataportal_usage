@@ -10,7 +10,7 @@ However, the numbers for _page impressions_ also differ, and on average are cons
 
 - **Script loading time:** Both BOSS and Webtrekk are loaded via JavaScript in the client, but the BOSS script usually loads faster than the Webtrekk script. In some cases the Webtrekk script will not finish loading before the client requests a new page, meaning that no page impression is recorded.
 - **Ad blockers:** it is possible that ad blockers prevent the loading of the tracking scripts. Since Webtrekk is more widely know, it is possible that it is blocked more frequently.
-- **Bot detection:** Requests from bots are sometimes recognized by the tracking software and not counted toward the PI total. BOSS and Webtrekk differ in which bots are detected.
+- **Bot detection:** Requests from bots are sometimes recognized by the tracking software and not counted toward the PI total. BOSS and Webtrekk detect different bots, where Webtrekk possibly detects more.
 
 ![Chart showing page impressions and views for daten.berlin.de as measures by BOSS and Webtrekk. Numbers from BOSS are consistently higher than numbers from Webtrekk.](image/boss-vs-webtrekk-domain.jpg)
 _Page impressions and visits for daten.berlin.de via BOSS and Webtrekk. Raw data is available in [daten_berlin_de.domain.2019.boss-vs-webtrekk.csv](data/comparison/daten_berlin_de.domain.2019.boss-vs-webtrekk.csv)._
