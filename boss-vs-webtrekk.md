@@ -1,6 +1,6 @@
 # BOSS vs Webtrekk
 
-Until 2019-12-31, usage statistics were collected with our internal _BerlinOnline Site Statistics_ (BOSS) tool. As of 2020-01-01 we have stopped using BOSS on the Berlin Open Data Portal, and replaced it with [Webtrekk](https://www.webtrekk.com). Webtrekk has been in use side-by-side with BOSS since February 2019. 
+Until 2019-12-31, usage statistics were collected with our internal _BerlinOnline Site Statistics_ (BOSS) tool. As of 2020-01-01 we have stopped using BOSS on the Berlin Open Data Portal, and replaced it with [Webtrekk Analytics](https://www.webtrekk.com/de/produkte/analytics/). Webtrekk has been in use side-by-side with BOSS since February 2019. 
 
 While BOSS and Webtrekk provide the same metrics, the actual results differ. 
 

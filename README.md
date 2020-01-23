@@ -4,7 +4,7 @@ This dataset contains usage statistics (page impressions and page visits) for th
 
 Statistics are given in both CSV (split over two files) and JSON (one combined file).
 
-Until 2019-12-31, usage statistics were collected with our internal _BerlinOnline Site Statistics_ (BOSS) tool. As of 2020-01-01 we have stopped using BOSS on the Berlin Open Data Portal, and replaced it with [Webtrekk](https://www.webtrekk.com). Webtrekk has been in use since February 2019. While BOSS and Webtrekk provide the same metrics, the actual results differ. We have written a little bit on [how and possible why BOSS and Webtrekk differ with respect to their results](boss-vs-webtrekk.md).
+Until 2019-12-31, usage statistics were collected with our internal _BerlinOnline Site Statistics_ (BOSS) tool. As of 2020-01-01 we have stopped using BOSS on the Berlin Open Data Portal, and replaced it with [Webtrekk Analytics](https://www.webtrekk.com/de/produkte/analytics/). Webtrekk has been in use since February 2019. While BOSS and Webtrekk provide the same metrics, the actual results differ. We have written a little bit on [how and possible why BOSS and Webtrekk differ with respect to their results](boss-vs-webtrekk.md).
 
 The historic BOSS data has been moved to `data/historic`, while the current Webtrekk data resides in `data/current`.
 
@@ -108,4 +108,4 @@ Dataset URL: [https://daten.berlin.de/datensaetze/zugriffsstatistik-datenberlind
 
 2020, Knud Möller, [BerlinOnline Stadtportal GmbH & Co. KG](https://www.berlinonline.net)
 
-Last changed: 2020-01-22
+Last changed: 2020-01-23
