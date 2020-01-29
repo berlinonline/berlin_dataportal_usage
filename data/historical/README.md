@@ -1,0 +1,3 @@
+This folder contains historical usage statistics for the Berlin Open Data portal [daten.berlin.de](https://daten.berlin.de). The data covers the period from 2011-09-01 – 2019-12-31. The statistics were collected using the BerlinOnline Site Statistics (BOSS) software. Since January 2020, BOSS is no longer in use and has been replaced with Webtrekk Analytics.
+
+See https://github.com/berlinonline/berlin_dataportal_usage for more detailed information about the data, including license and usage rights.
