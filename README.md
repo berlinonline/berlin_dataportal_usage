@@ -41,7 +41,7 @@ Download here: [daten_berlin_de.stats.json.tgz](https://berlinonline.github.io/b
 
 The structure of the data is as follows:
 
-* `/source` - From which source system the statistics were generated. One of `[ "Webtrekk", "Boss" ]`.
+* `/source` - From which source system the statistics were generated. One of `[ "WebTrekk", "Boss" ]`.
 * `/timestamp` - when these usage statistics were generated
 * `/stats/site_uri` - domain of the data portal
 * `/stats/earliest` - first month for which domain-wide statistics have been collected
@@ -108,4 +108,4 @@ Dataset URL: [https://daten.berlin.de/datensaetze/zugriffsstatistik-datenberlind
 
 2020, Knud Möller, [BerlinOnline Stadtportal GmbH & Co. KG](https://www.berlinonline.net)
 
-Last changed: 2020-01-23
+Last changed: 2020-01-29
