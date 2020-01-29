@@ -87,7 +87,7 @@ class StatsExporter
     def to_json
         {
             :timestamp => Time.now ,
-            :source => "WebTrekk" ,
+            :source => "Webtrekk" ,
             :stats => @stats
         }
     end

@@ -6,7 +6,7 @@ Statistics are given in both CSV (split over two files) and JSON (one combined f
 
 Until 2019-12-31, usage statistics were collected with our internal _BerlinOnline Site Statistics_ (BOSS) tool. As of 2020-01-01 we have stopped using BOSS on the Berlin Open Data Portal, and have replaced it with [Webtrekk Analytics](https://www.webtrekk.com/de/produkte/analytics/). Webtrekk has been in use since February 2019. While BOSS and Webtrekk provide the same metrics, the actual results differ. We have written a little bit on [how and possible why BOSS and Webtrekk differ with respect to their results](boss-vs-webtrekk.md).
 
-The historic BOSS data has been moved to `data/historic`, while the current Webtrekk data resides in `data/current`.
+The historic BOSS data has been moved to `data/historical`, while the current Webtrekk data resides in `data/current`.
 
 ## daten_berlin_de.domain_stats.csv
 
@@ -41,7 +41,7 @@ Download here: [daten_berlin_de.stats.json.tgz](https://berlinonline.github.io/b
 
 The structure of the data is as follows:
 
-* `/source` - From which source system the statistics were generated. One of `[ "WebTrekk", "Boss" ]`.
+* `/source` - From which source system the statistics were generated. One of `[ "Webtrekk", "Boss" ]`.
 * `/timestamp` - when these usage statistics were generated
 * `/stats/site_uri` - domain of the data portal
 * `/stats/earliest` - first month for which domain-wide statistics have been collected
