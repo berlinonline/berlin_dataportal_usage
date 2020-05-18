@@ -5,9 +5,8 @@ require 'optparse'
 require 'uri'
 require 'active_support'
 require 'active_support/core_ext'
+require 'webtrekk_connector'
 
-
-require_relative '../lib/webtrekk_connector.rb'
 require_relative '../lib/stats_exporter.rb'
 
 require 'pp'
