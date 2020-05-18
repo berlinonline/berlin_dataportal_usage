@@ -8,6 +8,21 @@ Until 2019-12-31, usage statistics were collected with our internal _BerlinOnlin
 
 The historic BOSS data has been moved to `data/historical`, while the current Webtrekk data resides in `data/current`.
 
+## Requirements
+
+The code to extract the usage statistics is written in Ruby. It has been tested with Ruby 2.7.1.
+
+The required gems are defined in the [Gemfile](Gemfile). In particuler, these are:
+
+- [webtrekk_connector](https://rubygems.org/gems/webtrekk_connector)
+- [ruby-keychain](https://rubygems.org/gems/ruby-keychain)
+
+If you have [bundler](https://bundler.io), you can install the required gems as follows:
+
+```
+bundle install
+```
+
 ## daten_berlin_de.domain_stats.csv
 
 Download here: [daten_berlin_de.domain_stats.csv](https://berlinonline.github.io/berlin_dataportal_usage/data/current/daten_berlin_de.domain_stats.csv)
@@ -98,7 +113,7 @@ The structure of the data is as follows:
 }
 ```
 
-### License
+## License
 
 All software in this repository is published under the [MIT License](LICENSE). All data in this repository (in particular the `.csv` and `.json` files) is published under [CC BY 3.0 DE](https://creativecommons.org/licenses/by/3.0/de/).
 
@@ -110,4 +125,4 @@ This page was generated from the github repository at [https://github.com/berlin
 
 2020, Knud Möller, [BerlinOnline Stadtportal GmbH & Co. KG](https://www.berlinonline.net)
 
-Last changed: 2020-05-05
+Last changed: 2020-05-19
