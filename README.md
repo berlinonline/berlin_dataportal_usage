@@ -1,6 +1,6 @@
 # daten.berlin.de Usage Statistics
 
-![logo for "daten.berlin.de Usage Statistics" dataset](image/daten-berlin-de-stats-social-preview_small.jpg)
+![logo for "daten.berlin.de Usage Statistics" dataset](image/daten-berlin-de-stats-social-preview_small.png)
 
 This dataset contains usage statistics (page impressions and page visits) for the Berlin Open Data Portal [https://daten.berlin.de](https://daten.berlin.de). Statistics are collected per month, both for the domain as such, and for all datasets (pages below `/datensaetze`).
 
