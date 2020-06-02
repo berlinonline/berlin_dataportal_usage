@@ -50,7 +50,7 @@ class StatsExporter
         while (date <= end_date)
             month = date.strftime("%Y-%m")
             header_row << "#{month} pi"
-            header_row << "#{month} pv"
+            header_row << "#{month} v"
             date = date.next_month
         end
         table << header_row

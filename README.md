@@ -2,7 +2,7 @@
 
 ![logo for "daten.berlin.de Usage Statistics" dataset](image/daten-berlin-de-stats-social-preview_small.png)
 
-This dataset contains usage statistics (page impressions and page visits) for the Berlin Open Data Portal [https://daten.berlin.de](https://daten.berlin.de). Statistics are collected per month, both for the domain as such, and for all datasets (pages below `/datensaetze`).
+This dataset contains usage statistics (page impressions and visits) for the Berlin Open Data Portal [https://daten.berlin.de](https://daten.berlin.de). Statistics are collected per month, both for the domain as such, and for all datasets (pages below `/datensaetze`).
 
 Statistics are given in both CSV (split over two files) and JSON (one combined file).
 
@@ -29,7 +29,7 @@ bundle install
 
 Download here: [daten_berlin_de.domain_stats.csv](https://berlinonline.github.io/berlin_dataportal_usage/data/current/daten_berlin_de.domain_stats.csv)
 
-Domain-wide statistics. One row per month, columns for page impressions and page visits.
+Domain-wide statistics. One row per month, columns for page impressions and visits.
 
 ```csv
 month,impressions,visits
@@ -43,7 +43,7 @@ month,impressions,visits
 
 Download here: [daten_berlin_de.page_stats.datensaetze.csv](https://berlinonline.github.io/berlin_dataportal_usage/data/current/daten_berlin_de.page_stats.datensaetze.csv)
 
-Per-dataset statistics. One row per dataset, two columns per month (page impressions and page visits).
+Per-dataset statistics. One row per dataset, two columns per month (page impressions and visits).
 
 ```
 page,2013-04-01 pi,2013-04-01 pv, ... ,2018-05-01 pi,2018-05-01 pv
@@ -65,13 +65,13 @@ The structure of the data is as follows:
 * `/stats/latest` - last month for which domain-wide statistics have been collected
 * `/stats/totals` - domain-wide statistics
 * `/stats/totals/{MONTH}/impressions` - domain-wide page impressions during `MONTH`
-* `/stats/totals/{MONTH}/visits` - domain-wide page visits during `MONTH`
+* `/stats/totals/{MONTH}/visits` - domain-wide visits during `MONTH`
 * `/stats/pages/datensaetze` - statistics for individual datasets
 * `/stats/pages/datensaetze/page_uri` - parent page for all datasets
 * `/stats/pages/datensaetze/earliest` - first month for which dataset-specific statistics have been collected
 * `/stats/pages/datensaetze/latest` - last month for which dataset-specific statistics have been collected
 * `/stats/pages/datensaetze/sub_page_counts/{MONTH}/{DATASET}/impressions` - page impressions recorded for DATASET during MONTH
-* `/stats/pages/datensaetze/sub_page_counts/{MONTH}/{DATASET}/visits` - page visits recorded for DATASET during MONTH
+* `/stats/pages/datensaetze/sub_page_counts/{MONTH}/{DATASET}/visits` - visits recorded for DATASET during MONTH
 
 ```json
 {
