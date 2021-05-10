@@ -78,7 +78,7 @@ stats = {
 config['domain_analysis']['startTime'] = Date.iso8601(config['startDate'])
 config['domain_analysis']['stopTime'] = Date.today.prev_month.end_of_month.iso8601
 domain_analysis = connector.request_analysis(config['domain_analysis'])
-stats[:totals] = domain_analysis['analysisData'].reverse.map { |entry| [ entry[0] , { :impressions => entry[2].to_i , :visits => entry[1].to_i } ] }.to_h
+stats[:totals] = domain_analysis['analysisData'].reverse.map { |entry| [ entry[0] , { :impressions => entry[2].to_i , :visits => entry[1].to_i , :visit_duration_avg => entry[3].to_f } ] }.to_h
 
 sub_page_totals = {}
 
@@ -112,7 +112,7 @@ end
 csv_out_file = "#{site_uri}.domain_stats.csv"
 csv_out_file = File.join(out_dir, csv_out_file)
 CSV.open(csv_out_file, "wb") do |csv|
-  csv << [ "month", "impressions", "visits" ]
+  csv << [ "month", "impressions", "visits", "visit_duration_avg_seconds" ]
   exporter.domain_stats_table.each do |row|
       csv << row
   end

@@ -29,10 +29,10 @@ bundle install
 
 Download here: [daten_berlin_de.domain_stats.csv](https://berlinonline.github.io/berlin_dataportal_usage/data/current/daten_berlin_de.domain_stats.csv)
 
-Domain-wide statistics. One row per month, columns for page impressions and visits.
+Domain-wide statistics. One row per month, columns for page impressions, visits and average time spent on site (in seconds).
 
 ```csv
-month,impressions,visits
+month,impressions,visits,visit_duration_avg_seconds
 2018-05,28563,10436
 2018-04,24779,9282
 2018-03,27728,10548
@@ -127,4 +127,4 @@ This page was generated from the github repository at [https://github.com/berlin
 
 2020, Knud Möller, [BerlinOnline Stadtportal GmbH & Co. KG](https://www.berlinonline.net)
 
-Last changed: 2021-05-06
+Last changed: 2021-05-10

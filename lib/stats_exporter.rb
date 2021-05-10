@@ -29,7 +29,7 @@ class StatsExporter
     end
 
     def domain_stats_table
-        @stats[:totals].transform_values { |v| [ v[:impressions], v[:visits] ] }.to_a.map { |x| x.flatten }
+        @stats[:totals].transform_values { |v| [ v[:impressions], v[:visits], v[:visit_duration_avg] ] }.to_a.map { |x| x.flatten }
     end
 
     def stats_table(pagename)
