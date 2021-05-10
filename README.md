@@ -33,9 +33,10 @@ Domain-wide statistics. One row per month, columns for page impressions, visits 
 
 ```csv
 month,impressions,visits,visit_duration_avg_seconds
-2018-05,28563,10436
-2018-04,24779,9282
-2018-03,27728,10548
+2021-04,26514,8937,147.94
+2021-03,25116,8505,153.71
+2021-02,20832,7212,152.06
+2021-01,31221,11199,162.95
 ...
 ```
 
