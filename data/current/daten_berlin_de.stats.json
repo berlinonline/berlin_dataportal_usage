@@ -1,5 +1,5 @@
 {
-  "timestamp": "2021-05-06 13:11:13 +0200",
+  "timestamp": "2021-05-10 10:42:57 +0200",
   "source": "Webtrekk",
   "stats": {
     "site_uri": "daten.berlin.de",
@@ -87263,111 +87263,138 @@
     "totals": {
       "2021-04": {
         "impressions": 26514,
-        "visits": 8937
+        "visits": 8937,
+        "visit_duration_avg": 147.94
       },
       "2021-03": {
         "impressions": 25116,
-        "visits": 8505
+        "visits": 8505,
+        "visit_duration_avg": 153.71
       },
       "2021-02": {
         "impressions": 20832,
-        "visits": 7212
+        "visits": 7212,
+        "visit_duration_avg": 152.06
       },
       "2021-01": {
         "impressions": 31221,
-        "visits": 11199
+        "visits": 11199,
+        "visit_duration_avg": 162.95
       },
       "2020-12": {
         "impressions": 19119,
-        "visits": 6324
+        "visits": 6324,
+        "visit_duration_avg": 154.92
       },
       "2020-11": {
         "impressions": 27519,
-        "visits": 8049
+        "visits": 8049,
+        "visit_duration_avg": 181.18
       },
       "2020-10": {
         "impressions": 49146,
-        "visits": 17580
+        "visits": 17580,
+        "visit_duration_avg": 125.16
       },
       "2020-09": {
         "impressions": 36780,
-        "visits": 8178
+        "visits": 8178,
+        "visit_duration_avg": 166.74
       },
       "2020-08": {
         "impressions": 42690,
-        "visits": 8106
+        "visits": 8106,
+        "visit_duration_avg": 194.48
       },
       "2020-07": {
         "impressions": 29586,
-        "visits": 7644
+        "visits": 7644,
+        "visit_duration_avg": 192.44
       },
       "2020-06": {
         "impressions": 24075,
-        "visits": 8427
+        "visits": 8427,
+        "visit_duration_avg": 189.97
       },
       "2020-05": {
         "impressions": 28398,
-        "visits": 10269
+        "visits": 10269,
+        "visit_duration_avg": 186.71
       },
       "2020-04": {
         "impressions": 28827,
-        "visits": 10932
+        "visits": 10932,
+        "visit_duration_avg": 163.06
       },
       "2020-03": {
         "impressions": 26862,
-        "visits": 10758
+        "visits": 10758,
+        "visit_duration_avg": 156.33
       },
       "2020-02": {
         "impressions": 26214,
-        "visits": 8349
+        "visits": 8349,
+        "visit_duration_avg": 208.11
       },
       "2020-01": {
         "impressions": 30783,
-        "visits": 10782
+        "visits": 10782,
+        "visit_duration_avg": 197.18
       },
       "2019-12": {
         "impressions": 19608,
-        "visits": 6474
+        "visits": 6474,
+        "visit_duration_avg": 189.2
       },
       "2019-11": {
         "impressions": 30432,
-        "visits": 8769
+        "visits": 8769,
+        "visit_duration_avg": 223.87
       },
       "2019-10": {
         "impressions": 22755,
-        "visits": 7386
+        "visits": 7386,
+        "visit_duration_avg": 198.7
       },
       "2019-09": {
         "impressions": 21885,
-        "visits": 7008
+        "visits": 7008,
+        "visit_duration_avg": 185.39
       },
       "2019-08": {
         "impressions": 24696,
-        "visits": 7725
+        "visits": 7725,
+        "visit_duration_avg": 218.04
       },
       "2019-07": {
         "impressions": 23946,
-        "visits": 8169
+        "visits": 8169,
+        "visit_duration_avg": 192.74
       },
       "2019-06": {
         "impressions": 21939,
-        "visits": 7938
+        "visits": 7938,
+        "visit_duration_avg": 183.26
       },
       "2019-05": {
         "impressions": 41349,
-        "visits": 17007
+        "visits": 17007,
+        "visit_duration_avg": 158.13
       },
       "2019-04": {
         "impressions": 25563,
-        "visits": 8115
+        "visits": 8115,
+        "visit_duration_avg": 177.17
       },
       "2019-03": {
         "impressions": 23199,
-        "visits": 8151
+        "visits": 8151,
+        "visit_duration_avg": 167.28
       },
       "2019-02": {
         "impressions": 19572,
-        "visits": 6231
+        "visits": 6231,
+        "visit_duration_avg": 192.4
       }
     }
   }
