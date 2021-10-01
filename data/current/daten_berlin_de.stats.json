@@ -1,16 +1,3138 @@
 {
-  "timestamp": "2021-09-01 17:59:33 +0200",
+  "timestamp": "2021-10-01 14:50:40 +0200",
   "source": "Webtrekk",
   "stats": {
     "site_uri": "daten.berlin.de",
     "earliest": "2019-02",
-    "latest": "2021-08",
+    "latest": "2021-09",
     "pages": {
       "datensaetze": {
         "earliest": "2019-02-01",
-        "latest": "2021-08-31",
+        "latest": "2021-09-30",
         "page_uri": "daten.berlin.de/datensaetze/*",
         "sub_page_counts": {
+          "2021-09": {
+            "geometrien-der-wahllokale-für-die-wahlen-zum-deutschen-bundestag-berlin-und-zum": {
+              "impressions": 1546,
+              "visits": 1350
+            },
+            "fahrraddiebstahl-berlin": {
+              "impressions": 1844,
+              "visits": 1295
+            },
+            "geometrien-der-wahlbezirke-für-die-wahlen-zur-bundestagswahl-berlin-und-zum": {
+              "impressions": 1830,
+              "visits": 1176
+            },
+            "geometrien-der-wahlkreise-für-die-wahl-zum-abgeordnetenhaus-von-berlin-2021": {
+              "impressions": 604,
+              "visits": 557
+            },
+            "covid-19-berlin-7-tage-inzidenz-nach-altersgruppen-und-meldewochen-gesamtübersicht": {
+              "impressions": 347,
+              "visits": 287
+            },
+            "covid-19-berlin-fallzahlen-und-indikatoren-gesamtübersicht": {
+              "impressions": 307,
+              "visits": 260
+            },
+            "liste-der-häufigen-vornamen-2020": {
+              "impressions": 265,
+              "visits": 189
+            },
+            "covid-19-berlin-verteilung-nach-altersgruppen": {
+              "impressions": 229,
+              "visits": 186
+            },
+            "covid-19-berlin-verteilung-den-bezirken-gesamtübersicht": {
+              "impressions": 208,
+              "visits": 170
+            },
+            "covid-19-berlin-verteilung-den-bezirken": {
+              "impressions": 168,
+              "visits": 144
+            },
+            "alkis-berlin-amtliches-liegenschaftskatasterinformationssystem-wms": {
+              "impressions": 133,
+              "visits": 103
+            },
+            "geometrien-der-wahlbezirke-für-die-wahlen-zum-deutschen-bundestag-berlin-und-zum": {
+              "impressions": 101,
+              "visits": 91
+            },
+            "openstreetmap-daten-für-berlin": {
+              "impressions": 75,
+              "visits": 59
+            },
+            "vbb-fahrplandaten-gtfs": {
+              "impressions": 56,
+              "visits": 51
+            },
+            "einwohnerinnen-und-einwohner-berlin-lor-planungsräumen-am-31122020": {
+              "impressions": 55,
+              "visits": 47
+            },
+            "digitale-farbige-orthophotos-2021-dop20rgbi-atom": {
+              "impressions": 45,
+              "visits": 41
+            },
+            "lebensweltlich-orientierte-räume-lor-planungsräume-01012021-wfs": {
+              "impressions": 42,
+              "visits": 37
+            },
+            "städtebauliche-dichte-gfzgrz-2019-umweltatlas-wfs": {
+              "impressions": 40,
+              "visits": 36
+            },
+            "parkscheinautomaten-psa-standorte-öffentlich-anzeigen-0": {
+              "impressions": 39,
+              "visits": 30
+            },
+            "bundestagswahl-2017-berlin-nach-wahlbezirken-endgültiges-ergebnis": {
+              "impressions": 30,
+              "visits": 30
+            },
+            "berlin-um-1986-atom": {
+              "impressions": 31,
+              "visits": 27
+            },
+            "einschulbereiche-geometrien-schuljahr-20212022": {
+              "impressions": 31,
+              "visits": 26
+            },
+            "berlin-um-1900-aisber-wms": {
+              "impressions": 27,
+              "visits": 26
+            },
+            "straßenbefahrung-2014-hydrant-wfs": {
+              "impressions": 31,
+              "visits": 25
+            },
+            "strassenverkehrsunfälle-nach-unfallort-berlin-2020": {
+              "impressions": 26,
+              "visits": 25
+            },
+            "standorte-der-öffentlichen-toiletten": {
+              "impressions": 25,
+              "visits": 24
+            },
+            "verkehrsdetektion-berlin-0": {
+              "impressions": 25,
+              "visits": 23
+            },
+            "radverkehrsmaßnahmen-berlin": {
+              "impressions": 24,
+              "visits": 23
+            },
+            "bsr-straßenreinigung-verzeichnisse-und-reinigungsklassen": {
+              "impressions": 33,
+              "visits": 22
+            },
+            "schulen-berlin-0": {
+              "impressions": 30,
+              "visits": 20
+            },
+            "blockkarte-1-5000-isu5-raumbezug-umweltatlas-2015-wms": {
+              "impressions": 27,
+              "visits": 20
+            },
+            "koordinaten-der-zugangsmöglichkeiten-zu-stationen-0": {
+              "impressions": 22,
+              "visits": 20
+            },
+            "flächennutzung-stadtstruktur-2015-und-versiegelung-2016-umweltatlas-wfs": {
+              "impressions": 25,
+              "visits": 19
+            },
+            "lebensweltlich-orientierte-räume-lor-berlin": {
+              "impressions": 23,
+              "visits": 19
+            },
+            "bodenrichtwerte-01012021-wms": {
+              "impressions": 26,
+              "visits": 18
+            },
+            "straßenbefahrung-2014-wms": {
+              "impressions": 20,
+              "visits": 18
+            },
+            "vbb-fahrplandaten-api-0": {
+              "impressions": 19,
+              "visits": 18
+            },
+            "polizeidirektionen-und-abschnitte-wms": {
+              "impressions": 21,
+              "visits": 17
+            },
+            "berlin-um-1940-atom": {
+              "impressions": 17,
+              "visits": 17
+            },
+            "digitale-farbige-orthophotos-2021-dop20rgbi-wms": {
+              "impressions": 17,
+              "visits": 17
+            },
+            "wochen-und-trödelmärkte-0": {
+              "impressions": 34,
+              "visits": 16
+            },
+            "wasserportal-gewässerkundliche-messdaten": {
+              "impressions": 20,
+              "visits": 16
+            },
+            "karte-der-berliner-gemeinschaftsgärten": {
+              "impressions": 19,
+              "visits": 16
+            },
+            "postleitzahlen-wms": {
+              "impressions": 18,
+              "visits": 16
+            },
+            "ausländische-einwohnerinnen-und-einwohner-berlin-lor-planungsräumen-am-31122020": {
+              "impressions": 16,
+              "visits": 16
+            },
+            "14-radrouten-und-radverkehrsanlagen-gps-tracks-für-die-radrouten-durch-berlin": {
+              "impressions": 16,
+              "visits": 16
+            },
+            "einwohnerinnen-und-einwohner-den-ortsteilen-berlins-am-31122020": {
+              "impressions": 24,
+              "visits": 15
+            },
+            "das-humboldt-netz-berlin-–-humboldtiana-im-stadtmuseum-0": {
+              "impressions": 20,
+              "visits": 15
+            },
+            "statistik-taxen-2021": {
+              "impressions": 19,
+              "visits": 15
+            },
+            "los122022-berlin": {
+              "impressions": 17,
+              "visits": 15
+            },
+            "sozialversicherungspflichtige-beschäftigte-berlin": {
+              "impressions": 17,
+              "visits": 15
+            },
+            "strat-lärmkarte-gesamtlärmindex-lden-tag-abend-nacht-raster-2017-umweltatlas-wms": {
+              "impressions": 17,
+              "visits": 15
+            },
+            "straßenbefahrung-2014-recycling-container-wfs": {
+              "impressions": 16,
+              "visits": 15
+            },
+            "verlauf-der-berliner-mauer-1989-wms": {
+              "impressions": 15,
+              "visits": 15
+            },
+            "gebäudeschäden-1945-wms": {
+              "impressions": 18,
+              "visits": 14
+            },
+            "wahlen-berlin-2016-abgeordnetenhaus-und-bezirksverordnetenversammlungen-endgültiges": {
+              "impressions": 17,
+              "visits": 14
+            },
+            "luftbilder-1928-maßstab-14-000-wms": {
+              "impressions": 16,
+              "visits": 14
+            },
+            "liste-der-badestellen": {
+              "impressions": 15,
+              "visits": 14
+            },
+            "hochwassergefahrenkarte-für-hochwasser-mit-niedriger-wahrscheinlichkeit-2019-umweltatlas": {
+              "impressions": 15,
+              "visits": 14
+            },
+            "bestand-windkraftanlagen-berlin": {
+              "impressions": 19,
+              "visits": 13
+            },
+            "erwerbstätige-berlin-und-brandenburg": {
+              "impressions": 15,
+              "visits": 13
+            },
+            "strassenverkehrsunfälle-nach-unfallort-berlin-2019": {
+              "impressions": 15,
+              "visits": 13
+            },
+            "personalbestandsbericht-2021": {
+              "impressions": 15,
+              "visits": 13
+            },
+            "geometrien-der-wahlbezirke-für-die-bundestagswahl-berlin-2017": {
+              "impressions": 14,
+              "visits": 12
+            },
+            "berlin-um-1800-atom": {
+              "impressions": 13,
+              "visits": 12
+            },
+            "einwohnerdichte-2019-umweltatlas-wms": {
+              "impressions": 12,
+              "visits": 12
+            },
+            "liste-der-diplomaten-kennzeichen-d": {
+              "impressions": 12,
+              "visits": 12
+            },
+            "berlin-txl-gebäudedaten-bestand-und-planung-3d": {
+              "impressions": 13,
+              "visits": 11
+            },
+            "alkis-berlin-flurstücke-wfs": {
+              "impressions": 13,
+              "visits": 11
+            },
+            "statistik-mietwagen-2021": {
+              "impressions": 13,
+              "visits": 11
+            },
+            "bodenrichtwerte-01012021-wfs": {
+              "impressions": 12,
+              "visits": 11
+            },
+            "schüler-und-lehrkräftestatistik": {
+              "impressions": 12,
+              "visits": 11
+            },
+            "lebensweltlich-orientierte-räume-lor-01012021-wms": {
+              "impressions": 12,
+              "visits": 11
+            },
+            "los122021-berlin": {
+              "impressions": 12,
+              "visits": 11
+            },
+            "verbraucherpreisindex-im-land-berlin-und-brandenburg": {
+              "impressions": 11,
+              "visits": 11
+            },
+            "berlin-um-1880-atom": {
+              "impressions": 11,
+              "visits": 11
+            },
+            "kriminalitätsatlas-berlin": {
+              "impressions": 11,
+              "visits": 11
+            },
+            "bericht-zur-gesundheitsquote-des-unmittelbaren-landesdienstes-berlin-2020": {
+              "impressions": 14,
+              "visits": 10
+            },
+            "schornsteinfegerkehrbezirke-wfs": {
+              "impressions": 13,
+              "visits": 10
+            },
+            "kinder-und-jugendliche-mit-migrationshintergrund-2018-wms": {
+              "impressions": 13,
+              "visits": 10
+            },
+            "kurse-der-berliner-volkshochschulen": {
+              "impressions": 12,
+              "visits": 10
+            },
+            "unternehmensregister-im-land-berlin-und-brandenburg": {
+              "impressions": 12,
+              "visits": 10
+            },
+            "berlin-um-1910-atom": {
+              "impressions": 11,
+              "visits": 10
+            },
+            "koordinaten-berliner-denkmale": {
+              "impressions": 11,
+              "visits": 10
+            },
+            "senatsvorlagen-der-senatsverwaltung-für-finanzen": {
+              "impressions": 11,
+              "visits": 10
+            },
+            "denkmalkarte-berlin-wms": {
+              "impressions": 11,
+              "visits": 10
+            },
+            "gesundheitsberichterstattung-berlin-kontext-gesundheitsmonitoring-2018": {
+              "impressions": 11,
+              "visits": 10
+            },
+            "kamerale-monatsdaten-bezirk-lichtenberg-2018": {
+              "impressions": 11,
+              "visits": 10
+            },
+            "energieverbrauchsdaten-2018": {
+              "impressions": 10,
+              "visits": 10
+            },
+            "städtebauliche-dichte-grundflächenzahl-grz-2019-umweltatlas-wms": {
+              "impressions": 11,
+              "visits": 9
+            },
+            "rahmenvertrag-über-den-aufbau-und-betrieb-eines-elektronischen-stadtinformationssystems": {
+              "impressions": 10,
+              "visits": 9
+            },
+            "bundesfernstraßen-wms": {
+              "impressions": 10,
+              "visits": 9
+            },
+            "berlin-um-1690-atom": {
+              "impressions": 10,
+              "visits": 9
+            },
+            "berlin-um-1750-atom": {
+              "impressions": 10,
+              "visits": 9
+            },
+            "verschenken-statt-wegwerfen": {
+              "impressions": 9,
+              "visits": 9
+            },
+            "baufertigstellungen-wms": {
+              "impressions": 9,
+              "visits": 9
+            },
+            "liste-der-häufigen-vornamen-2019": {
+              "impressions": 9,
+              "visits": 9
+            },
+            "parkscheinautomaten-psa-standorte-öffentlich-anzeigen": {
+              "impressions": 18,
+              "visits": 8
+            },
+            "grünanlagenbestand-berlin-einschl-der-öffentlichen-spielplätze-grünanlagen-wfs": {
+              "impressions": 11,
+              "visits": 8
+            },
+            "straßenverzeichnis": {
+              "impressions": 10,
+              "visits": 8
+            },
+            "straßen-und-volksfeste": {
+              "impressions": 9,
+              "visits": 8
+            },
+            "flurstücke-im-inspire-datenmodell-wms": {
+              "impressions": 9,
+              "visits": 8
+            },
+            "lebensweltlich-orientierte-räume-lor-prognoseräume-01012021-wfs": {
+              "impressions": 8,
+              "visits": 8
+            },
+            "branchenübersicht-0": {
+              "impressions": 8,
+              "visits": 8
+            },
+            "wohnlagen-zum-berliner-mietspiegel-2021-wfs": {
+              "impressions": 8,
+              "visits": 8
+            },
+            "einwohnerinnen-und-einwohner-mit-migrationshintergrund-berlin-lor-planungsräumen-am-12": {
+              "impressions": 8,
+              "visits": 8
+            },
+            "luftbilder-1992-maßstab-110-000-wfs": {
+              "impressions": 8,
+              "visits": 8
+            },
+            "einwohnerentwicklung-2018-bis-2019-umweltatlas-wfs": {
+              "impressions": 8,
+              "visits": 8
+            },
+            "einwohnerinnen-und-einwohner-berlin-lor-planungsräumen-am-31122019": {
+              "impressions": 8,
+              "visits": 8
+            },
+            "grünanlagenbestand-berlin-einschl-der-öffentlichen-spielplätze-spielplätze-wfs": {
+              "impressions": 17,
+              "visits": 7
+            },
+            "covid-19-berlin-fallzahlen-und-indikatoren-gesamtübersicht-0": {
+              "impressions": 10,
+              "visits": 7
+            },
+            "baumbestand-berlin-wms": {
+              "impressions": 9,
+              "visits": 7
+            },
+            "sozialstatistisches-berichtswesen-berlin-sozialgesetzbuch-xii-sgb-xii-ab-2005": {
+              "impressions": 7,
+              "visits": 7
+            },
+            "radverkehrsanlagen-wms": {
+              "impressions": 7,
+              "visits": 7
+            },
+            "karte-von-berlin-15000-k5-farbausgabe-wms": {
+              "impressions": 7,
+              "visits": 7
+            },
+            "alkis-berlin-sw-amtliches-liegenschaftskatasterinformationssystem-wms": {
+              "impressions": 7,
+              "visits": 7
+            },
+            "eckdaten-allgemeinbildende-schulen": {
+              "impressions": 7,
+              "visits": 7
+            },
+            "lebensweltlich-orientierte-räume-im-bezirk-friedrichshain-kreuzberg": {
+              "impressions": 7,
+              "visits": 7
+            },
+            "alkis-berlin-gemeinde-wfs": {
+              "impressions": 7,
+              "visits": 7
+            },
+            "digitale-topographische-karte-1-25-000-dtk25-wms": {
+              "impressions": 7,
+              "visits": 7
+            },
+            "einwohnerregister-berlin": {
+              "impressions": 7,
+              "visits": 7
+            },
+            "straßenverzeichnis-der-stadtplanung-im-bezirk-lichtenberg": {
+              "impressions": 7,
+              "visits": 7
+            },
+            "einwohnerdichte-2019-umweltatlas-wfs": {
+              "impressions": 7,
+              "visits": 6
+            },
+            "liste-der-häufigen-vornamen-2018": {
+              "impressions": 7,
+              "visits": 6
+            },
+            "liste-der-stolpersteine-berlin": {
+              "impressions": 7,
+              "visits": 6
+            },
+            "denkmalliste-des-landes-berlin": {
+              "impressions": 6,
+              "visits": 6
+            },
+            "lisa-ll-studie-berlin-mitte-lebensqualität-interessen-selbständigkeit-im-alter": {
+              "impressions": 6,
+              "visits": 6
+            },
+            "zuwendungsdatenbank": {
+              "impressions": 6,
+              "visits": 6
+            },
+            "adressen-berlin-wfs": {
+              "impressions": 6,
+              "visits": 6
+            },
+            "blockkarte-1-50000-isu50-raumbezug-umweltatlas-2015-wms": {
+              "impressions": 6,
+              "visits": 6
+            },
+            "bsr-recyclinghöfe-und-abfall-abc": {
+              "impressions": 6,
+              "visits": 6
+            },
+            "polizeiabschnitte-wfs": {
+              "impressions": 6,
+              "visits": 6
+            },
+            "preisblatt-anschluss-niederspannung-berlin": {
+              "impressions": 6,
+              "visits": 6
+            },
+            "volkswirtschaftliche-gesamtrechnungen-berlin-und-brandenburg": {
+              "impressions": 6,
+              "visits": 6
+            },
+            "alkis-berlin-gemarkung-wfs": {
+              "impressions": 6,
+              "visits": 6
+            },
+            "liste-der-verbannten-bücher": {
+              "impressions": 11,
+              "visits": 5
+            },
+            "kindertagesstätten-marzahn-hellersdorf-0": {
+              "impressions": 11,
+              "visits": 5
+            },
+            "los92022-berlin": {
+              "impressions": 7,
+              "visits": 5
+            },
+            "wasserschutzgebiete-wms": {
+              "impressions": 7,
+              "visits": 5
+            },
+            "einwohnerdichte-2020-umweltatlas-wfs": {
+              "impressions": 6,
+              "visits": 5
+            },
+            "kfz-kennzeichen-deutschland": {
+              "impressions": 6,
+              "visits": 5
+            },
+            "einwohnerinnen-und-einwohner-den-ortsteilen-berlins-am-31122019": {
+              "impressions": 6,
+              "visits": 5
+            },
+            "kitas-berlin": {
+              "impressions": 6,
+              "visits": 5
+            },
+            "geologische-bohrdaten-wfs": {
+              "impressions": 6,
+              "visits": 5
+            },
+            "reale-nutzung-2015-umweltatlas-wms": {
+              "impressions": 6,
+              "visits": 5
+            },
+            "maßnahmeliste-verkehrswende-friedrichshain-kreuzberg": {
+              "impressions": 6,
+              "visits": 5
+            },
+            "höhenlage-im-inspire-datenmodell-digitales-geländemodell-wms": {
+              "impressions": 6,
+              "visits": 5
+            },
+            "gebäudeschäden-1945-wfs": {
+              "impressions": 5,
+              "visits": 5
+            },
+            "angebote-für-berlinpass": {
+              "impressions": 5,
+              "visits": 5
+            },
+            "luftbilder-1954-schrägaufnahmen-wfs": {
+              "impressions": 5,
+              "visits": 5
+            },
+            "berlin-um-1940-wms": {
+              "impressions": 5,
+              "visits": 5
+            },
+            "parkraumbewirtschaftung-wms": {
+              "impressions": 5,
+              "visits": 5
+            },
+            "lebensweltlich-orientierte-räume-lor-planungsräume-wms": {
+              "impressions": 5,
+              "visits": 5
+            },
+            "adressen-berlin-wms": {
+              "impressions": 5,
+              "visits": 5
+            },
+            "alkis-berlin-gebäude-wfs": {
+              "impressions": 5,
+              "visits": 5
+            },
+            "einwohnerinnen-und-einwohner-nach-wohnlagen-den-lor-planungsräumen-am-31122019": {
+              "impressions": 5,
+              "visits": 5
+            },
+            "standorte-von-altglascontainern-auf-öffentlichem-straßenland-charlottenburg-1": {
+              "impressions": 5,
+              "visits": 5
+            },
+            "strat-lärmkarte-gesamtlärmindex-ln-nacht-raster-2017-umweltatlas-wms": {
+              "impressions": 5,
+              "visits": 5
+            },
+            "schnittstelle-zum-informationssystem-zur-bvv-marzahn-hellersdorf": {
+              "impressions": 5,
+              "visits": 5
+            },
+            "emobility-ladestationen-berlin": {
+              "impressions": 5,
+              "visits": 5
+            },
+            "digitale-farbige-trueorthophotos-2020-truedop20rgb-sommerbefliegung-wms": {
+              "impressions": 5,
+              "visits": 5
+            },
+            "liste-der-häufigen-vornamen-2013": {
+              "impressions": 5,
+              "visits": 5
+            },
+            "ortsteile-von-berlin-wms": {
+              "impressions": 5,
+              "visits": 5
+            },
+            "verlauf-der-berliner-mauer-1989-vorderlandmauer-wfs": {
+              "impressions": 5,
+              "visits": 5
+            },
+            "lod2-gebäudedaten-berlin": {
+              "impressions": 5,
+              "visits": 5
+            },
+            "standorte-öffentlicher-schulen-grundschuleinzugsbereiche-wfs": {
+              "impressions": 5,
+              "visits": 5
+            },
+            "digitale-color-infrarot-trueorthophotos-2020-truedop20cir-sommerbefliegung-wms": {
+              "impressions": 5,
+              "visits": 5
+            },
+            "versammlungen-im-land-berlin": {
+              "impressions": 10,
+              "visits": 4
+            },
+            "einwohnerinnen-und-einwohner-nach-wohnlagen-den-lor-planungsräumen-am-31122020": {
+              "impressions": 7,
+              "visits": 4
+            },
+            "staatliche-dienste-im-inspire-datenmodell-polizeidienst-wms": {
+              "impressions": 6,
+              "visits": 4
+            },
+            "winterspiel-und-bewegungsangebote-berlin-mitte": {
+              "impressions": 6,
+              "visits": 4
+            },
+            "wohnatlas-berlin-angebotsmieten-2018-eurm²-monatlich-netto-kalt-wms": {
+              "impressions": 6,
+              "visits": 4
+            },
+            "20-grüne-hauptwege-wanderkarte-wms": {
+              "impressions": 5,
+              "visits": 4
+            },
+            "denkmale-wfs": {
+              "impressions": 5,
+              "visits": 4
+            },
+            "städtebauliche-dichte-geschossflächenzahl-gfz-2019-umweltatlas-wms": {
+              "impressions": 5,
+              "visits": 4
+            },
+            "umsatz-und-beschäftigte-des-einzelhandels-berlin-und-brandenburg": {
+              "impressions": 5,
+              "visits": 4
+            },
+            "strat-lärmkarte-fassadenpegel-gesamtlärm-lden-tag-abend-nacht-2017-umweltatlas-wms": {
+              "impressions": 5,
+              "visits": 4
+            },
+            "ladesäulen-im-öffentlichen-und-halböffentlichen-raum": {
+              "impressions": 5,
+              "visits": 4
+            },
+            "gastronomien-laden-und-andere-geschäfte-mit-liefer-und-abholservice": {
+              "impressions": 5,
+              "visits": 4
+            },
+            "berliner-betriebskostenübersicht-2013": {
+              "impressions": 5,
+              "visits": 4
+            },
+            "standorte-geförderter-kultureinrichtungen": {
+              "impressions": 5,
+              "visits": 4
+            },
+            "liste-der-häufigen-vornamen-2017": {
+              "impressions": 5,
+              "visits": 4
+            },
+            "einwohnerinnen-und-einwohner-mit-migrationshintergrund-berlin-lor-planungsräumen-am-11": {
+              "impressions": 5,
+              "visits": 4
+            },
+            "luftverkehr-wms": {
+              "impressions": 5,
+              "visits": 4
+            },
+            "alkis-berlin-bauwerke-wfs": {
+              "impressions": 5,
+              "visits": 4
+            },
+            "gieß-den-kiez-nutzungsdaten": {
+              "impressions": 5,
+              "visits": 4
+            },
+            "landesentwicklungsplan-hauptstadtregion-berlin-brandenburg-lep-hr-nebenkarte-wms": {
+              "impressions": 4,
+              "visits": 4
+            },
+            "energie-und-co2-bilanz-im-land-berlin-und-brandenburg": {
+              "impressions": 4,
+              "visits": 4
+            },
+            "aktuell-geförderte-projekte-21": {
+              "impressions": 4,
+              "visits": 4
+            },
+            "rbs-bezirke-dezember-2016": {
+              "impressions": 4,
+              "visits": 4
+            },
+            "atkis®-dgm-digitales-geländemodell-wms": {
+              "impressions": 4,
+              "visits": 4
+            },
+            "öpnv-vorrangnetz-wfs": {
+              "impressions": 4,
+              "visits": 4
+            },
+            "digitale-farbige-trueorthophotos-2013-wms": {
+              "impressions": 4,
+              "visits": 4
+            },
+            "baumbestand-berlin-straßenbäume-wfs": {
+              "impressions": 4,
+              "visits": 4
+            },
+            "spielplatzöffnungen-im-bezirk-pankow": {
+              "impressions": 4,
+              "visits": 4
+            },
+            "gedenktafel-datenbank-berlin-mitte": {
+              "impressions": 4,
+              "visits": 4
+            },
+            "energieverbrauchsübersicht-der-bezirklichen-abnahmestellen-2018": {
+              "impressions": 4,
+              "visits": 4
+            },
+            "gebäudealter-der-wohnbebauung-umweltatlas-wms": {
+              "impressions": 4,
+              "visits": 4
+            },
+            "zugriffsstatistik-datenberlinde": {
+              "impressions": 4,
+              "visits": 4
+            },
+            "luftbilder-1928-maßstab-14-000-atom": {
+              "impressions": 4,
+              "visits": 4
+            },
+            "bezirksamtsbeschlüsse": {
+              "impressions": 4,
+              "visits": 4
+            },
+            "angebote": {
+              "impressions": 4,
+              "visits": 4
+            },
+            "gewerbeanmeldungen-und-betriebsgründungen-2001-2019": {
+              "impressions": 4,
+              "visits": 4
+            },
+            "adressen-kindertagespflegestellen-friedrichshain-kreuzberg": {
+              "impressions": 4,
+              "visits": 4
+            },
+            "digitale-farbige-orthophotos-2018-dop20rgb-wms": {
+              "impressions": 4,
+              "visits": 4
+            },
+            "einwohnerdichte-2020-umweltatlas-wms": {
+              "impressions": 4,
+              "visits": 4
+            },
+            "einwohnerinnen-und-einwohner-berlin-lor-planungsräumen-nach-wohndauer-am-31122020": {
+              "impressions": 4,
+              "visits": 4
+            },
+            "grünvolumen-umweltatlas-wms": {
+              "impressions": 4,
+              "visits": 4
+            },
+            "standorte-berliner-feuerwehr-direktionen-wfs": {
+              "impressions": 4,
+              "visits": 4
+            },
+            "digitale-color-infrarot-trueorthophotos-2020-truedop20cir-sommerbefliegung-atom": {
+              "impressions": 4,
+              "visits": 4
+            },
+            "wohnlagenkarte-nach-adressen-zum-berliner-mietspiegel-2021-wms": {
+              "impressions": 7,
+              "visits": 3
+            },
+            "einwohnerinnen-und-einwohner-mit-migrationshintergrund-berlin-lor-planungsräumen-nach-8": {
+              "impressions": 5,
+              "visits": 3
+            },
+            "schnittstelle-zum-informationssystem-der-bvv-reinickendorf": {
+              "impressions": 5,
+              "visits": 3
+            },
+            "schulen-berlin": {
+              "impressions": 5,
+              "visits": 3
+            },
+            "senatsvorlagen": {
+              "impressions": 5,
+              "visits": 3
+            },
+            "polizeidirektionen-wfs": {
+              "impressions": 4,
+              "visits": 3
+            },
+            "klimamodell-berlin-entwicklung-der-anzahl-klimatologischer-kenntage-der-zukunft-2015": {
+              "impressions": 4,
+              "visits": 3
+            },
+            "digitale-farbige-orthophotos-2011-dop20rgb-wms": {
+              "impressions": 4,
+              "visits": 3
+            },
+            "trinkbrunnen-im-bezirk-friedrichshain-kreuzberg": {
+              "impressions": 4,
+              "visits": 3
+            },
+            "landschaftsplanverfahren-übersicht-wms": {
+              "impressions": 4,
+              "visits": 3
+            },
+            "parkraumbewirtschaftung-wfs": {
+              "impressions": 4,
+              "visits": 3
+            },
+            "kohlenstoffspeicher-der-vegetation-block-und-blockteilflächen-wfs": {
+              "impressions": 4,
+              "visits": 3
+            },
+            "berlin-um-1880-wms": {
+              "impressions": 4,
+              "visits": 3
+            },
+            "adressen-im-inspire-datenmodell-wms": {
+              "impressions": 4,
+              "visits": 3
+            },
+            "bodenrichtwerte-01012020-wms": {
+              "impressions": 4,
+              "visits": 3
+            },
+            "kompensationsinformationssystem-berlin-wms": {
+              "impressions": 4,
+              "visits": 3
+            },
+            "geometrien-der-lor-bezirksregionen-berlins-stand-072012": {
+              "impressions": 4,
+              "visits": 3
+            },
+            "gesundheitsberichterstattung-berlin-gesundheitszustand-der-bevölkerung-19": {
+              "impressions": 4,
+              "visits": 3
+            },
+            "strat-lärmkarte-lden-tag-abend-nacht-index-straßenverkehr-2017-umweltatlas-wms": {
+              "impressions": 4,
+              "visits": 3
+            },
+            "gesundheitsberichterstattung-berlin-gesundheitszustand-der-bevölkerung-17": {
+              "impressions": 3,
+              "visits": 3
+            },
+            "haushaltsplan-2020-2021": {
+              "impressions": 3,
+              "visits": 3
+            },
+            "übersicht-über-wirtschaftsbereichebranchen": {
+              "impressions": 3,
+              "visits": 3
+            },
+            "liste-der-häufigen-vornamen-2016": {
+              "impressions": 3,
+              "visits": 3
+            },
+            "statistische-einheiten-im-inspire-datenmodell-lor-atom": {
+              "impressions": 3,
+              "visits": 3
+            },
+            "blockkarte-15000-isu5-wms": {
+              "impressions": 3,
+              "visits": 3
+            },
+            "wasserschutzgebiet-johannisthal-vorläufige-anordnung-wms": {
+              "impressions": 3,
+              "visits": 3
+            },
+            "alkis-berlin-flur-wfs": {
+              "impressions": 3,
+              "visits": 3
+            },
+            "geometrien-der-wahlkreise-für-die-abgeordnetenhauswahl-berlin-2016": {
+              "impressions": 3,
+              "visits": 3
+            },
+            "grundwassertemperatur-durchschnittstemperatur-des-grundwassers-0-m-50-m-unter": {
+              "impressions": 3,
+              "visits": 3
+            },
+            "los12023-berlin": {
+              "impressions": 3,
+              "visits": 3
+            },
+            "wohnatlas-2019-daten-wfs": {
+              "impressions": 3,
+              "visits": 3
+            },
+            "bodenrichtwerte-01012020-wfs": {
+              "impressions": 3,
+              "visits": 3
+            },
+            "geologische-bohrdaten-wms": {
+              "impressions": 3,
+              "visits": 3
+            },
+            "wahllokale-zur-bundestagswahl-2013-berlin": {
+              "impressions": 3,
+              "visits": 3
+            },
+            "entsiegelungspotenziale-umweltatlas-wms": {
+              "impressions": 3,
+              "visits": 3
+            },
+            "liste-der-häufigen-vornamen-2012": {
+              "impressions": 3,
+              "visits": 3
+            },
+            "berlin-um-1850-wms": {
+              "impressions": 3,
+              "visits": 3
+            },
+            "behindertenparkplätze-wms": {
+              "impressions": 3,
+              "visits": 3
+            },
+            "umweltzone-wms": {
+              "impressions": 3,
+              "visits": 3
+            },
+            "berliner-familienzentren": {
+              "impressions": 3,
+              "visits": 3
+            },
+            "sozialstatistisches-berichtswesen-berlin-monatsstatistiken-zu-den-empfängerinnen-und-3": {
+              "impressions": 3,
+              "visits": 3
+            },
+            "energieverbrauchsübersicht-bezirklicher-gebäude-2017-bezirk-mitte": {
+              "impressions": 3,
+              "visits": 3
+            },
+            "auslastung-der-beherbergungsbetriebe-oktober-2017": {
+              "impressions": 3,
+              "visits": 3
+            },
+            "erhaltungsgebiete-nach-paragraph-172-baugb-im-bezirk-friedrichshain-kreuzberg": {
+              "impressions": 3,
+              "visits": 3
+            },
+            "detailnetz-straßenabschnitte-wfs": {
+              "impressions": 3,
+              "visits": 3
+            },
+            "digitale-farbige-orthophotos-2007-dop20rgb-wms": {
+              "impressions": 3,
+              "visits": 3
+            },
+            "standorte-berliner-feuerwehr-wms": {
+              "impressions": 3,
+              "visits": 3
+            },
+            "kindertagesstätten-wfs": {
+              "impressions": 3,
+              "visits": 3
+            },
+            "vbb-linienfarben": {
+              "impressions": 3,
+              "visits": 3
+            },
+            "energieverbrauchsübersicht-bezirklicher-gebäude-bezirk-treptow-köpenick-2017-2019": {
+              "impressions": 3,
+              "visits": 3
+            },
+            "atkis-wohnbaufläche-offen-fläche-wfs": {
+              "impressions": 3,
+              "visits": 3
+            },
+            "spielplatzversorgung-öffentlich-und-privat-wms": {
+              "impressions": 3,
+              "visits": 3
+            },
+            "verlauf-der-berliner-mauer-1989-polit-grenze-abweichend-vom-mauerverlauf-wfs": {
+              "impressions": 3,
+              "visits": 3
+            },
+            "übergeordnetes-straßennetz-bestand-wms": {
+              "impressions": 3,
+              "visits": 3
+            },
+            "bodengesellschaften-2015-umweltatlas-wms": {
+              "impressions": 3,
+              "visits": 3
+            },
+            "höhenlage-im-inspire-datenmodell-digitales-geländemodell-atom": {
+              "impressions": 3,
+              "visits": 3
+            },
+            "verkehr-und-personenaufkommen-am-ernst-reuter-platz-0": {
+              "impressions": 3,
+              "visits": 3
+            },
+            "tourismuszahlen-berlin-januar-2018": {
+              "impressions": 3,
+              "visits": 3
+            },
+            "digitale-farbige-orthophotos-2019-dop20rgb-wms": {
+              "impressions": 3,
+              "visits": 3
+            },
+            "einwohnerinnen-und-einwohner-berlin-lor-planungsräumen-am-31122018": {
+              "impressions": 3,
+              "visits": 3
+            },
+            "berliner-gedenktafeln-steglitz-zehlendorf": {
+              "impressions": 3,
+              "visits": 3
+            },
+            "energieverbrauchsübersicht-bezirklicher-gebäude-2019-bezirk-friedrichshain-kreuzberg": {
+              "impressions": 3,
+              "visits": 3
+            },
+            "digitale-farbige-orthophotos-2021-dop20rgbi": {
+              "impressions": 3,
+              "visits": 3
+            },
+            "straßenbefahrung-2014-sitzbank-wfs": {
+              "impressions": 3,
+              "visits": 3
+            },
+            "zukunftsorte-berlin": {
+              "impressions": 3,
+              "visits": 3
+            },
+            "orte-für-kinder-jugend-und-familie": {
+              "impressions": 3,
+              "visits": 3
+            },
+            "status-index-2019-wms": {
+              "impressions": 3,
+              "visits": 3
+            },
+            "digitale-farbige-orthophotos-2004-dop25rgb-atom": {
+              "impressions": 3,
+              "visits": 3
+            },
+            "ordnungsamt-online": {
+              "impressions": 3,
+              "visits": 3
+            },
+            "städtebauliche-dichte-geschossflächenzahl-gfz-2019-plr-wms": {
+              "impressions": 3,
+              "visits": 3
+            },
+            "geometrien-der-wahlbezirke-für-die-europawahl-2019-berlin": {
+              "impressions": 3,
+              "visits": 3
+            },
+            "wohnlagen-nach-adressen-zum-berliner-mietspiegel-2019-wfs": {
+              "impressions": 3,
+              "visits": 3
+            },
+            "digitale-color-infrarot-orthophotos-2015-dop20cir-sommerbefliegung-wms": {
+              "impressions": 9,
+              "visits": 2
+            },
+            "spielplatzversorgung-öffentlich-wms": {
+              "impressions": 6,
+              "visits": 2
+            },
+            "städtebauliche-dichte-geschossflächenzahl-gfz-2019-plr-wfs": {
+              "impressions": 5,
+              "visits": 2
+            },
+            "sozialstatistisches-berichtswesen-berlin-monatsstatistiken-zu-den-empfängerinnen-und-2": {
+              "impressions": 5,
+              "visits": 2
+            },
+            "ausländische-einwohnerinnen-und-einwohner-berlin-lor-planungsräumen-am-31122019": {
+              "impressions": 4,
+              "visits": 2
+            },
+            "digitale-farbige-trueorthophotos-2020-truedop20rgb-sommerbefliegung-atom": {
+              "impressions": 4,
+              "visits": 2
+            },
+            "gewerbeanzeigen-im-land-berlin-und-brandenburg": {
+              "impressions": 4,
+              "visits": 2
+            },
+            "atkis-schifffahrtslinie-fährverkehr-linien-wfs": {
+              "impressions": 4,
+              "visits": 2
+            },
+            "alkis-berlin-tatsächliche-nutzung-wfs": {
+              "impressions": 3,
+              "visits": 2
+            },
+            "wahlen-berlin-2011-abgeordnetenhaus-und-bezirksverordnetenversammlungen-endgültiges": {
+              "impressions": 3,
+              "visits": 2
+            },
+            "detailnetz-berlin-wms-2": {
+              "impressions": 3,
+              "visits": 2
+            },
+            "gesundheitsberichterstattung-berlin-gesundheitsindikator-35-vorzeitige-sterblichkeit-bis": {
+              "impressions": 3,
+              "visits": 2
+            },
+            "verkehrsmengen-dtvw-2019-wms": {
+              "impressions": 3,
+              "visits": 2
+            },
+            "gesundheitsberichterstattung-berlin-spezialberichte-sozialstrukturatlas": {
+              "impressions": 3,
+              "visits": 2
+            },
+            "einschulbereiche-geometrien-schuljahr-20202021": {
+              "impressions": 3,
+              "visits": 2
+            },
+            "art-der-kanalisation-2017-umweltatlas-wms": {
+              "impressions": 3,
+              "visits": 2
+            },
+            "digitale-topographische-karte-1-50-000-dtk50-wms": {
+              "impressions": 3,
+              "visits": 2
+            },
+            "geologische-skizze-umweltatlas-wms": {
+              "impressions": 3,
+              "visits": 2
+            },
+            "einwohnerinnen-und-einwohner-berlin-lor-planungsräumen-nach-wohndauer-am-31122019": {
+              "impressions": 3,
+              "visits": 2
+            },
+            "lebensweltlich-orientierte-räume-lor-bezirksregionen-01012021-wfs": {
+              "impressions": 3,
+              "visits": 2
+            },
+            "wohnlagenkarte-nach-adressen-zum-berliner-mietspiegel-2019-wms": {
+              "impressions": 3,
+              "visits": 2
+            },
+            "erhaltungsverordnungsgebiete-erhaltung-der-städtebaulichen-eigenart-wfs": {
+              "impressions": 3,
+              "visits": 2
+            },
+            "orthofotografie-im-inspire-datenmodell-dop20rgbi-2021-wms": {
+              "impressions": 3,
+              "visits": 2
+            },
+            "liste-der-häufigen-vornamen-2015": {
+              "impressions": 3,
+              "visits": 2
+            },
+            "netzstrukturdaten": {
+              "impressions": 3,
+              "visits": 2
+            },
+            "berlin-um-1986-wms": {
+              "impressions": 2,
+              "visits": 2
+            },
+            "landschaftsplanverfahren-übersicht-wfs": {
+              "impressions": 2,
+              "visits": 2
+            },
+            "übersicht-über-wirtschaftsbereiche-branchen": {
+              "impressions": 2,
+              "visits": 2
+            },
+            "wohnlagen-nach-adressen-zum-berliner-mietspiegel-2021-wfs": {
+              "impressions": 2,
+              "visits": 2
+            },
+            "kompensationsinformationssystem-berlin-wfs": {
+              "impressions": 2,
+              "visits": 2
+            },
+            "einfache-wohnlage-einschl-lärmbelastung-2018-wms": {
+              "impressions": 2,
+              "visits": 2
+            },
+            "berlin-um-1800-wms": {
+              "impressions": 2,
+              "visits": 2
+            },
+            "geometrien-der-wahlbezirke-für-die-wahl-zum-abgeordnetenhaus-von-berlin-und-zu-den": {
+              "impressions": 2,
+              "visits": 2
+            },
+            "geothermisches-potenzial-spezifische-entzugsleistung-bis-100-m-für-2400-ha-wms": {
+              "impressions": 2,
+              "visits": 2
+            },
+            "e-mobility-ladesäulen-berlin": {
+              "impressions": 2,
+              "visits": 2
+            },
+            "geologische-skizze-umweltatlas-wfs": {
+              "impressions": 2,
+              "visits": 2
+            },
+            "schulen-einschulbereiche-wfs": {
+              "impressions": 2,
+              "visits": 2
+            },
+            "energieverbräuche-energieverbrauch-strom-pro-postleitzahl-wfs": {
+              "impressions": 2,
+              "visits": 2
+            },
+            "tempolimits-wms": {
+              "impressions": 2,
+              "visits": 2
+            },
+            "investitionsprogramm-2019-–-2023": {
+              "impressions": 2,
+              "visits": 2
+            },
+            "verkehrsmengen-dtvw-2019-wfs": {
+              "impressions": 2,
+              "visits": 2
+            },
+            "flurstücke-im-inspire-datenmodell-atom": {
+              "impressions": 2,
+              "visits": 2
+            },
+            "baunutzungsplan-wms": {
+              "impressions": 2,
+              "visits": 2
+            },
+            "wasserschutzgebiet-johannisthal-vorläufige-anordnung-wfs": {
+              "impressions": 2,
+              "visits": 2
+            },
+            "adressen-im-inspire-datenmodell-atom": {
+              "impressions": 2,
+              "visits": 2
+            },
+            "einwohnerinnen-und-einwohner-den-ortsteilen-berlins-am-31122014": {
+              "impressions": 2,
+              "visits": 2
+            },
+            "lebensweltlich-orientierte-räume-lor-prognoseräume-wms": {
+              "impressions": 2,
+              "visits": 2
+            },
+            "moore-moorteilflächen-umweltatlas-wfs": {
+              "impressions": 2,
+              "visits": 2
+            },
+            "geometrien-der-ortsteile-von-berlin-juli-2012": {
+              "impressions": 2,
+              "visits": 2
+            },
+            "bebauungsplansuche-zu-ihrem-grundstück": {
+              "impressions": 2,
+              "visits": 2
+            },
+            "besondere-naturräumliche-eigenart-der-böden-2015-umweltatlas-wms": {
+              "impressions": 2,
+              "visits": 2
+            },
+            "berliner-gebäude-atlas-mitte-epsg25833-wfs-0": {
+              "impressions": 2,
+              "visits": 2
+            },
+            "3d-gebäudemodelle-im-level-detail-1-lod-1-atom": {
+              "impressions": 2,
+              "visits": 2
+            },
+            "berlin-um-1650-wms": {
+              "impressions": 2,
+              "visits": 2
+            },
+            "los82022-berlin": {
+              "impressions": 2,
+              "visits": 2
+            },
+            "straßenbefahrung-2014-gehweg-wfs-0": {
+              "impressions": 2,
+              "visits": 2
+            },
+            "schnittstelle-zum-informationssystem-der-bvv-treptow-köpenick": {
+              "impressions": 2,
+              "visits": 2
+            },
+            "schulen-wfs": {
+              "impressions": 2,
+              "visits": 2
+            },
+            "alkis-berlin-land-wfs": {
+              "impressions": 2,
+              "visits": 2
+            },
+            "wohnatlas-berlin-veränderung-d-anzahl-d-leistungsempf-nach-sgb-ii-2012-2017-wms": {
+              "impressions": 2,
+              "visits": 2
+            },
+            "verkehrsbedingte-luftbelastung-im-straßenraum-2015-umweltatlas-wfs": {
+              "impressions": 2,
+              "visits": 2
+            },
+            "übersicht-der-beschlüsse-des-bezirksamts-steglitz-zehlendorf": {
+              "impressions": 2,
+              "visits": 2
+            },
+            "preisblatt-netznutzung-berlin-ab-2015": {
+              "impressions": 2,
+              "visits": 2
+            },
+            "geologische-schnitte-umweltatlas-wfs": {
+              "impressions": 2,
+              "visits": 2
+            },
+            "all.kml": {
+              "impressions": 2,
+              "visits": 2
+            },
+            "bundestagswahl-2013-berlin-nach-wahlbezirken-endgültiges-ergebnis": {
+              "impressions": 2,
+              "visits": 2
+            },
+            "fischfauna-wms": {
+              "impressions": 2,
+              "visits": 2
+            },
+            "strat-lärmkarte-fassadenpegel-gesamtlärm-ln-nacht-2017-umweltatlas-wms": {
+              "impressions": 2,
+              "visits": 2
+            },
+            "alkis-berlin-besondere-flurstücksgrenzen-wfs": {
+              "impressions": 2,
+              "visits": 2
+            },
+            "afis-berlin-höhenfestpunkte-3-ordnung-wfs": {
+              "impressions": 2,
+              "visits": 2
+            },
+            "berlin-um-1910-wms": {
+              "impressions": 2,
+              "visits": 2
+            },
+            "webatlas-berlin-wms": {
+              "impressions": 2,
+              "visits": 2
+            },
+            "geplante-bodennutzung-im-inspire-datenmodell-bebauungspläne-wms": {
+              "impressions": 2,
+              "visits": 2
+            },
+            "städtebauliche-dichte-gfzgrz-2011-umweltatlas-wfs": {
+              "impressions": 2,
+              "visits": 2
+            },
+            "ansprechpartnerinnen-der-vereine-sport-für-4-bis-16-jährige": {
+              "impressions": 2,
+              "visits": 2
+            },
+            "veränderung-transferbezug-2017-2018-wms": {
+              "impressions": 2,
+              "visits": 2
+            },
+            "berlin-um-1850-atom": {
+              "impressions": 2,
+              "visits": 2
+            },
+            "geologische-skizze-liniengewässer-umweltatlas-wfs": {
+              "impressions": 2,
+              "visits": 2
+            },
+            "straßenbefahrung-2014-durchfahrtshöhe-wfs": {
+              "impressions": 2,
+              "visits": 2
+            },
+            "gesundheitsberichterstattung-berlin-basisberichte": {
+              "impressions": 2,
+              "visits": 2
+            },
+            "senatsvorlagen-der-senatsverwaltung-für-wirtschaft-energie-und-betriebe": {
+              "impressions": 2,
+              "visits": 2
+            },
+            "rbs-blöcke-dezember-2016": {
+              "impressions": 2,
+              "visits": 2
+            },
+            "verkehrszellenteilverkehrszellen-berlin-wms": {
+              "impressions": 2,
+              "visits": 2
+            },
+            "sozialstatistisches-berichtswesen-berlin-statistische-kurzinformationen-leistungen-2": {
+              "impressions": 2,
+              "visits": 2
+            },
+            "transferbezug-2018-wms": {
+              "impressions": 2,
+              "visits": 2
+            },
+            "einwohnerinnen-und-einwohner-mit-migrationshintergrund-berlin-lor-planungsräumen-2": {
+              "impressions": 2,
+              "visits": 2
+            },
+            "berlin-txl-wms": {
+              "impressions": 2,
+              "visits": 2
+            },
+            "karte-von-berlin-15000-k5-ausgabe-dxf": {
+              "impressions": 2,
+              "visits": 2
+            },
+            "los72022-berlin": {
+              "impressions": 2,
+              "visits": 2
+            },
+            "atkis®-dgm-1m-rasterweite-atom": {
+              "impressions": 2,
+              "visits": 2
+            },
+            "geothermisches-potenzial-spezifische-entzugsleistung-bis-80-m-für-2400-ha-wms": {
+              "impressions": 2,
+              "visits": 2
+            },
+            "schulen-wms": {
+              "impressions": 2,
+              "visits": 2
+            },
+            "alkis-berlin-gewässer-und-vegetationsflächen-wfs": {
+              "impressions": 2,
+              "visits": 2
+            },
+            "stadtstruktur-2015-umweltatlas-wms": {
+              "impressions": 2,
+              "visits": 2
+            },
+            "europawahl-2019-berlin-nach-wahlbezirken-endgültiges-ergebnis": {
+              "impressions": 2,
+              "visits": 2
+            },
+            "moore-moorgebiete-umweltatlas-wfs": {
+              "impressions": 2,
+              "visits": 2
+            },
+            "schulbaumaßnahmen": {
+              "impressions": 2,
+              "visits": 2
+            },
+            "angebote-nach-altersbereichen": {
+              "impressions": 2,
+              "visits": 2
+            },
+            "straßenbefahrung-2014-wasserpumpen-und-brunnen-wfs": {
+              "impressions": 2,
+              "visits": 2
+            },
+            "ingenieurgeologische-karte-umweltatlas-wms": {
+              "impressions": 2,
+              "visits": 2
+            },
+            "standardlastprofil-haushalt-2021-berlin": {
+              "impressions": 2,
+              "visits": 2
+            },
+            "gesundheitsberichterstattung-berlin-beschäftigte-im-gesundheitswesen-beschäftigte-im": {
+              "impressions": 2,
+              "visits": 2
+            },
+            "los92021-berlin": {
+              "impressions": 2,
+              "visits": 2
+            },
+            "los112021-berlin": {
+              "impressions": 2,
+              "visits": 2
+            },
+            "baugewerbe-im-land-berlin-und-brandenburg": {
+              "impressions": 2,
+              "visits": 2
+            },
+            "bdom-bildbasiertes-digitales-oberflächenmodell-atom": {
+              "impressions": 2,
+              "visits": 2
+            },
+            "projekt-datenbasis-wista-management-gmbh": {
+              "impressions": 2,
+              "visits": 2
+            },
+            "universitäten-berlin-und-deutschland": {
+              "impressions": 2,
+              "visits": 2
+            },
+            "hauskoordinaten-als-teildatenbestand-adressen-berlin-atom": {
+              "impressions": 2,
+              "visits": 2
+            },
+            "sozialstatistisches-berichtswesen-berlin-sozialgesetzbuch-xii-sgb-xii-ab-2005-hilfe-zum": {
+              "impressions": 2,
+              "visits": 2
+            },
+            "schnittstelle-zum-informationssystem-der-bvv-pankow-von-berlin": {
+              "impressions": 2,
+              "visits": 2
+            },
+            "fairtrade-im-bezirk-friedrichshain-kreuzberg": {
+              "impressions": 2,
+              "visits": 2
+            },
+            "straßenbefahrung-2014-verkehrszeichen-wfs": {
+              "impressions": 2,
+              "visits": 2
+            },
+            "digitale-topographische-karte-1-100-000-dtk100-wms": {
+              "impressions": 2,
+              "visits": 2
+            },
+            "friedhofsbestand-berlin-wms": {
+              "impressions": 2,
+              "visits": 2
+            },
+            "lebensweltlich-orientierte-räume-lor-bezirksregionen-wfs": {
+              "impressions": 2,
+              "visits": 2
+            },
+            "digitale-color-infrarot-orthophotos-2020-dop20cir-sommerbefliegung-wms": {
+              "impressions": 2,
+              "visits": 2
+            },
+            "gründächer-gebäudeflächen-umweltatlas-wfs": {
+              "impressions": 2,
+              "visits": 2
+            },
+            "energienetze-wms": {
+              "impressions": 2,
+              "visits": 2
+            },
+            "bsr": {
+              "impressions": 2,
+              "visits": 2
+            },
+            "3d-gebäudemodelle-im-level-detail-2-lod-2-wms": {
+              "impressions": 2,
+              "visits": 2
+            },
+            "finanzamt-suche": {
+              "impressions": 2,
+              "visits": 2
+            },
+            "denkmalliste-berlin-im-csv-format": {
+              "impressions": 2,
+              "visits": 2
+            },
+            "gesundheitsberichterstattung-berlin-einrichtungen-des-gesundheitswesens-1": {
+              "impressions": 2,
+              "visits": 2
+            },
+            "solaranlagen-solarthermie-umweltatlas-wms": {
+              "impressions": 2,
+              "visits": 2
+            },
+            "alle-baumaßnahmen-schulen-steglitz-zehlendorf-im-rahmen-der-berliner-schulbauoffensive": {
+              "impressions": 2,
+              "visits": 2
+            },
+            "tempolimits-wfs": {
+              "impressions": 2,
+              "visits": 2
+            },
+            "standorte-von-altglascontainern-auf-öffentlichem-straßenland-charlottenburg-wilmersdorf": {
+              "impressions": 2,
+              "visits": 2
+            },
+            "vorhaben-und-projektliste-des-bezirksamtes-pankow": {
+              "impressions": 2,
+              "visits": 2
+            },
+            "berlin-zoom-sw-ausgabe-wms": {
+              "impressions": 2,
+              "visits": 2
+            },
+            "lebensweltlich-orientierte-räume-lor-bezirksregionen-wms": {
+              "impressions": 2,
+              "visits": 2
+            },
+            "rbs-statistische-gebiete-dezember-2015": {
+              "impressions": 2,
+              "visits": 2
+            },
+            "deutsche-digitale-bibliothek-ddb-api": {
+              "impressions": 2,
+              "visits": 2
+            },
+            "gesundheitsberichterstattung-berlin-gesundheitsindikator-711-impfquote-bezüglich": {
+              "impressions": 2,
+              "visits": 2
+            },
+            "standorte-arbeitsraumprogramm-ateliers": {
+              "impressions": 2,
+              "visits": 2
+            },
+            "haushaltspläne": {
+              "impressions": 2,
+              "visits": 2
+            },
+            "baumbestand-berlin-straßenbäume-sachdaten-zur-karte-wfs": {
+              "impressions": 2,
+              "visits": 2
+            },
+            "suchbegriffe-datenberlinde": {
+              "impressions": 2,
+              "visits": 2
+            },
+            "reale-nutzung-der-bebauten-flächen-2015-umweltatlas-wms": {
+              "impressions": 2,
+              "visits": 2
+            },
+            "berlin-um-1650-atom": {
+              "impressions": 2,
+              "visits": 2
+            },
+            "vbb-fahrplandaten-via-gtfs": {
+              "impressions": 7,
+              "visits": 1
+            },
+            "vbb-linienfarben-0": {
+              "impressions": 5,
+              "visits": 1
+            },
+            "tourismus-im-land-berlin-und-brandenburg": {
+              "impressions": 3,
+              "visits": 1
+            },
+            "einwohnerinnen-undeinwohner-den-ortsteilen-berlins-am-31122020": {
+              "impressions": 3,
+              "visits": 1
+            },
+            "atkis-bahnverkehr-fläche-wfs": {
+              "impressions": 3,
+              "visits": 1
+            },
+            "strat-lärmkarte-fassadenpegel-gesamtlärm-lden-tag-abend-nacht-2012-ua-atom": {
+              "impressions": 3,
+              "visits": 1
+            },
+            "straßenbefahrung-2014-kanaldeckel-wfs": {
+              "impressions": 3,
+              "visits": 1
+            },
+            "afis-berlin-geodätische-grundnetzpunkte-1-genauigkeitsstufe-wfs": {
+              "impressions": 3,
+              "visits": 1
+            },
+            "rbs-blöcke-dezember-2015": {
+              "impressions": 3,
+              "visits": 1
+            },
+            "gesundheitsberichterstattung-berlin-statistische-kurzinformationen-suizid": {
+              "impressions": 2,
+              "visits": 1
+            },
+            "bodenarten-2015-umweltatlas-wms": {
+              "impressions": 2,
+              "visits": 1
+            },
+            "straßenbefahrung-2014-fahrradständer-wfs": {
+              "impressions": 2,
+              "visits": 1
+            },
+            "bindungsstärke-der-böden-für-schwermetalle-2005-umweltatlas-wms": {
+              "impressions": 2,
+              "visits": 1
+            },
+            "geplante-bodennutzung-im-inspire-datenmodell-erhaltungsverordnungsgebiete-wms": {
+              "impressions": 2,
+              "visits": 1
+            },
+            "wohnatlas-berlin-umgewandelte-wohnungen-2017-von-miet-eigentumswohnungen-wms": {
+              "impressions": 2,
+              "visits": 1
+            },
+            "klimamodell-berlin-bewertungsindex-physiologisch-äquivalente-temperatur-2015-umweltatlas": {
+              "impressions": 2,
+              "visits": 1
+            },
+            "berliner5und5brandenburger5volks5und5straßenfeste52013": {
+              "impressions": 2,
+              "visits": 1
+            },
+            "grundwassermessstellen-wms": {
+              "impressions": 2,
+              "visits": 1
+            },
+            "geplante-bodennutzung-im-inspire-datenmodell-lapro-programmplan-gesamtstädtische-0": {
+              "impressions": 2,
+              "visits": 1
+            },
+            "übersichtskarte-von-berlin-1-50-000-ük50-10-farbig-atom": {
+              "impressions": 2,
+              "visits": 1
+            },
+            "alkis-berlin-relief-geländekante-wfs": {
+              "impressions": 2,
+              "visits": 1
+            },
+            "covid-19-berlin-verteilung-den-bezirken-0": {
+              "impressions": 2,
+              "visits": 1
+            },
+            "standorte-berliner-feuerwehr-wfs": {
+              "impressions": 2,
+              "visits": 1
+            },
+            "gesundheitsberichterstattung-berlin-gesundheitszustand-der-bevölkerung-4": {
+              "impressions": 2,
+              "visits": 1
+            },
+            "fische-wrrl-umweltatlas-wms": {
+              "impressions": 2,
+              "visits": 1
+            },
+            "statistische-blöcke-des-rbs-wms": {
+              "impressions": 2,
+              "visits": 1
+            },
+            "öpnv-vorrangnetz-wms": {
+              "impressions": 2,
+              "visits": 1
+            },
+            "sozialstatistisches-berichtswesen-berlin-asylbewerberleistungsgesetz-asylblg": {
+              "impressions": 2,
+              "visits": 1
+            },
+            "gesundheitsberichterstattung-berlin-beschäftigte-im-gesundheitswesen-ausgewählte-im-0": {
+              "impressions": 2,
+              "visits": 1
+            },
+            "statistische-blöcke-des-rbs-onhold-wfs": {
+              "impressions": 2,
+              "visits": 1
+            },
+            "flächennutzung-stadtstruktur-und-versiegelung-2001-umweltatlas-wfs": {
+              "impressions": 2,
+              "visits": 1
+            },
+            "jahresabschluss-2017": {
+              "impressions": 2,
+              "visits": 1
+            },
+            "grünanlagenbestand-berlin-einschließlich-der-öffentlichen-spielplätze-wms": {
+              "impressions": 2,
+              "visits": 1
+            },
+            "übersicht-über-mögliche-tarifentgelte-–-ausgewählte-berufe": {
+              "impressions": 2,
+              "visits": 1
+            },
+            "personalstandsbericht-2021": {
+              "impressions": 2,
+              "visits": 1
+            },
+            "angebote-der-schulbezogenen-jugendarbeit-und-jugendsozialarbeit": {
+              "impressions": 2,
+              "visits": 1
+            },
+            "afis-berlin-höhenfestpunkte-2-ordnung-wfs": {
+              "impressions": 2,
+              "visits": 1
+            },
+            "landschaftsplanverfahren-wfs-1": {
+              "impressions": 2,
+              "visits": 1
+            },
+            "reale-nutzung-2010-umweltatlas-wms": {
+              "impressions": 2,
+              "visits": 1
+            },
+            "wohnräume-2018-wms": {
+              "impressions": 1,
+              "visits": 1
+            },
+            "wohnlagen-zum-berliner-mietspiegel-2019-wfs": {
+              "impressions": 1,
+              "visits": 1
+            },
+            "biotoptypen-umweltatlas-wfs": {
+              "impressions": 1,
+              "visits": 1
+            },
+            "gesundheitsberichterstattung-berlin-gesundheitsindikator-712-impfquote-bezüglich-masern": {
+              "impressions": 1,
+              "visits": 1
+            },
+            "beschäftigungsdaten-für-opendata": {
+              "impressions": 1,
+              "visits": 1
+            },
+            "gesundheitsberichterstattung-berlin-kontext-gesundheitsmonitoring-2017-0": {
+              "impressions": 1,
+              "visits": 1
+            },
+            "los112022-berlin": {
+              "impressions": 1,
+              "visits": 1
+            },
+            "gesundheitsberichterstattung-berlin-gesundheitsrelevante-verhaltensweisen-konsum-von-0": {
+              "impressions": 1,
+              "visits": 1
+            },
+            "landesentwicklungsplan-hauptstadtregion-berlin-brandenburg-lep-hr-hauptkarte-atom": {
+              "impressions": 1,
+              "visits": 1
+            },
+            "strat-lärmkarte-lden-tag-abend-nacht-index-straßen-u-bahnverkehr-2017-umweltatlas-wms": {
+              "impressions": 1,
+              "visits": 1
+            },
+            "ressortübergreifende-gemeinschaftsinitiative-zur-stärkung-sozial-benachteiligter": {
+              "impressions": 1,
+              "visits": 1
+            },
+            "digitale-farbige-orthophotos-2020-dop20rgb-atom": {
+              "impressions": 1,
+              "visits": 1
+            },
+            "karte-von-berlin-15000-k5-sw-ausgabe-wms": {
+              "impressions": 1,
+              "visits": 1
+            },
+            "los52022-berlin": {
+              "impressions": 1,
+              "visits": 1
+            },
+            "öffentliche-toiletten-im-bezirk": {
+              "impressions": 1,
+              "visits": 1
+            },
+            "melderechtlich-registrierte-einwohner-am-ort-ihrer-hauptwohung": {
+              "impressions": 1,
+              "visits": 1
+            },
+            "sanierungsgebiete-im-bezirk-friedrichshain-kreuzberg": {
+              "impressions": 1,
+              "visits": 1
+            },
+            "entwicklung-luftqualität-emissionswerte-nox-1989-bis-2009-umweltatlas-wfs": {
+              "impressions": 1,
+              "visits": 1
+            },
+            "behindertenparkplätze-im-bezirk-friedrichshain-kreuzberg": {
+              "impressions": 1,
+              "visits": 1
+            },
+            "berlin-und-brandenburg-sind-folgende-tarifliche-abweichungen-erlaubt": {
+              "impressions": 1,
+              "visits": 1
+            },
+            "baugrundkarte-wms": {
+              "impressions": 1,
+              "visits": 1
+            },
+            "wasserdurchlässigkeit-des-untergrundes-ab-einer-tiefe-von-1-m-umweltatlas-wfs": {
+              "impressions": 1,
+              "visits": 1
+            },
+            "digitale-farbige-orthophotos-2016-dop20rgb-wms": {
+              "impressions": 1,
+              "visits": 1
+            },
+            "projektdatenbank-der-geförderten-projekte-der-landesstelle-für": {
+              "impressions": 1,
+              "visits": 1
+            },
+            "liste-der-häufigen-vornamen": {
+              "impressions": 1,
+              "visits": 1
+            },
+            "einwohnerdichte-1994-umweltatlas-wms": {
+              "impressions": 1,
+              "visits": 1
+            },
+            "dynamik-index-2013-wms-36": {
+              "impressions": 1,
+              "visits": 1
+            },
+            "einrichtungen-und-projekte-für-kinder-jugendliche-und-familien": {
+              "impressions": 1,
+              "visits": 1
+            },
+            "digitale-farbige-orthophotos-2004-dop25rgb-wms": {
+              "impressions": 1,
+              "visits": 1
+            },
+            "bebauungspläne-vorhabenbezogene-bebauungspläne-geltungsbereiche-wms": {
+              "impressions": 1,
+              "visits": 1
+            },
+            "datenberlinde-metadaten": {
+              "impressions": 1,
+              "visits": 1
+            },
+            "einfache-wohnlage-einschl-lärmbelastung-2014-wms": {
+              "impressions": 1,
+              "visits": 1
+            },
+            "covid-19-berlin-verteilung-den-bezirken-gesamtübersicht-0": {
+              "impressions": 1,
+              "visits": 1
+            },
+            "einfache-wohnlage-einschl-lärmbelastung-2016-wms": {
+              "impressions": 1,
+              "visits": 1
+            },
+            "mokib-modulare-kita-bauten-für-berlin-wfs": {
+              "impressions": 1,
+              "visits": 1
+            },
+            "zu-erwartender-mittlerer-höchster-grundwasserstand-zemhgw-umweltatlas-wms": {
+              "impressions": 1,
+              "visits": 1
+            },
+            "langjähriges-mittel-der-lufttemperatur-winter-1981-2010-isolinien-umweltatlas-wfs": {
+              "impressions": 1,
+              "visits": 1
+            },
+            "baufertigstellungen-2012-2019-wms": {
+              "impressions": 1,
+              "visits": 1
+            },
+            "art-der-kanalisation-2017-umweltatlas-wfs": {
+              "impressions": 1,
+              "visits": 1
+            },
+            "verwaltungseinheiten-im-inspire-datenmodell-wms": {
+              "impressions": 1,
+              "visits": 1
+            },
+            "städtebauliche-dichte-grundflächenzahl-grz-2011-umweltatlas-wms": {
+              "impressions": 1,
+              "visits": 1
+            },
+            "grundwasserabhängige-ökosysteme-umweltatlas-wms": {
+              "impressions": 1,
+              "visits": 1
+            },
+            "alleinerziehende-haushalte-2014-lor-wms-0": {
+              "impressions": 1,
+              "visits": 1
+            },
+            "dienstleistungen": {
+              "impressions": 1,
+              "visits": 1
+            },
+            "wohnlagenkarte-nach-adressen-zum-berliner-mietspiegel-2005-wms": {
+              "impressions": 1,
+              "visits": 1
+            },
+            "tagesparameterabhängiges-lastprofil-speicherheizung-ab-2013-berlin": {
+              "impressions": 1,
+              "visits": 1
+            },
+            "beteiligungsdatenbank-des-landes-berlin": {
+              "impressions": 1,
+              "visits": 1
+            },
+            "berliner-wasserbetriebe-wasseranalysedaten-der-wasserwerke": {
+              "impressions": 1,
+              "visits": 1
+            },
+            "straßenbefahrung-2014-trennstreifen-wfs": {
+              "impressions": 1,
+              "visits": 1
+            },
+            "einwohnerinnen-und-einwohner-berlin-lor-planungsräumen-am-31122014": {
+              "impressions": 1,
+              "visits": 1
+            },
+            "einwohnerinnen-undeinwohner-den-ortsteilen-berlins-am": {
+              "impressions": 1,
+              "visits": 1
+            },
+            "wohnlagenkarte-nach-adressen-zum-berliner-mietspiegel-2017-wms": {
+              "impressions": 1,
+              "visits": 1
+            },
+            "altersarmut-2016-wms": {
+              "impressions": 1,
+              "visits": 1
+            },
+            "grundwassermessstellen-wfs": {
+              "impressions": 1,
+              "visits": 1
+            },
+            "verlauf-der-berliner-mauer-1989-hinterlandmauer-wfs": {
+              "impressions": 1,
+              "visits": 1
+            },
+            "entwicklungsbereiche-und-stand-ihrer-entlassung-aus-dem-entwicklungsrecht-wfs": {
+              "impressions": 1,
+              "visits": 1
+            },
+            "stadtstruktur-flächentypen-differenziert-2015-umweltatlas-wms": {
+              "impressions": 1,
+              "visits": 1
+            },
+            "detailnetz-berlin-wms": {
+              "impressions": 1,
+              "visits": 1
+            },
+            "geometrien-der-wahllokale-für-die-wahlen-zum-deutschen-bundestag-berlin-und-zumsind": {
+              "impressions": 1,
+              "visits": 1
+            },
+            "gebäude-und-vegetationshöhen-20092010-umweltatlas-atom": {
+              "impressions": 1,
+              "visits": 1
+            },
+            "trinkbrunnen-im-bezirk-friedrichshain-kreuzberg7": {
+              "impressions": 1,
+              "visits": 1
+            },
+            "einwohnerdichte-2017-umweltatlas-wms": {
+              "impressions": 1,
+              "visits": 1
+            },
+            "kamerale-monatsdaten-bezirk-lichtenberg-2016": {
+              "impressions": 1,
+              "visits": 1
+            },
+            "luftbilder-1997-maßstab-110-000-wfs": {
+              "impressions": 1,
+              "visits": 1
+            },
+            "digitale-farbige-orthophotos-2020-dop20rgb-wms": {
+              "impressions": 1,
+              "visits": 1
+            },
+            "bodenrichtwerte-01012016-wms": {
+              "impressions": 1,
+              "visits": 1
+            },
+            "messeplan-des-landes-berlin-2022": {
+              "impressions": 1,
+              "visits": 1
+            },
+            "liste-der-häufigen-vornamen-2014": {
+              "impressions": 1,
+              "visits": 1
+            },
+            "strat-lärmkarte-lden-tag-abend-nacht-index-straßenverkehr-2017-ua-atom": {
+              "impressions": 1,
+              "visits": 1
+            },
+            "blockkarte-1-5000-isu5-raumbezug-umweltatlas-2005-wms": {
+              "impressions": 1,
+              "visits": 1
+            },
+            "gesundheitsberichterstattung-berlin-kontext-bezirke-sonderauswertung-2018": {
+              "impressions": 1,
+              "visits": 1
+            },
+            "übersichtskarte-von-berlin-1-50-000-ük50-sw-kombi-atom": {
+              "impressions": 1,
+              "visits": 1
+            },
+            "jahresabschluss-2019": {
+              "impressions": 1,
+              "visits": 1
+            },
+            "atkis-hafen-fläche-wfs": {
+              "impressions": 1,
+              "visits": 1
+            },
+            "landesentwicklungsplan-hauptstadtregion-berlin-brandenburg-lep-hr-hauptkarte-wms": {
+              "impressions": 1,
+              "visits": 1
+            },
+            "archäologische-fundstellen-und-bodendenkmale-aisber-wms": {
+              "impressions": 1,
+              "visits": 1
+            },
+            "straßenbefahrung-2014-radweg-wfs": {
+              "impressions": 1,
+              "visits": 1
+            },
+            "straßenbaumpflanzungen-steglitz-zehlendorf": {
+              "impressions": 1,
+              "visits": 1
+            },
+            "straßenverkehrslärm-tag-6-22-uhr-umweltatlas-wms": {
+              "impressions": 1,
+              "visits": 1
+            },
+            "interaktion": {
+              "impressions": 1,
+              "visits": 1
+            },
+            "jahresabschluss-2016": {
+              "impressions": 1,
+              "visits": 1
+            },
+            "radzähldaten-berlin": {
+              "impressions": 1,
+              "visits": 1
+            },
+            "digitale-farbige-trueorthophotos-2020-truedop20rgb-sommerbefliegung": {
+              "impressions": 1,
+              "visits": 1
+            },
+            "insolvenzen-im-land-berlin-und-brandenburg": {
+              "impressions": 1,
+              "visits": 1
+            },
+            "gesundheitsberichterstattung-berlin-bevölkerung-und-bevölkerungsspezifische-2": {
+              "impressions": 1,
+              "visits": 1
+            },
+            "geologische-karte-1874-1937-atom": {
+              "impressions": 1,
+              "visits": 1
+            },
+            "schutzgebiete-nach-naturschutzrecht-inklusive-natura-2000-wfs": {
+              "impressions": 1,
+              "visits": 1
+            },
+            "standorte-der-verkehrsinformationstafeln-berlin": {
+              "impressions": 1,
+              "visits": 1
+            },
+            "straßenbefahrung-2014-telefonzelle-und-telefonstele-wfs": {
+              "impressions": 1,
+              "visits": 1
+            },
+            "tourismus-berlin-2016": {
+              "impressions": 1,
+              "visits": 1
+            },
+            "klimawandel-jahresmittel-tage-mit-wärmebelastung-2021-2050-farbreihe-2-umweltatlas-wms": {
+              "impressions": 1,
+              "visits": 1
+            },
+            "baumbestand-berlin-anlagenbäume-sachdaten-zur-karte-wfs": {
+              "impressions": 1,
+              "visits": 1
+            },
+            "stadtführer-entwicklungspolitik": {
+              "impressions": 1,
+              "visits": 1
+            },
+            "digitale-topographische-karte-1-10-000-dtk10-wms": {
+              "impressions": 1,
+              "visits": 1
+            },
+            "atkis®-dgm-digitales-geländemodell-wms-1": {
+              "impressions": 1,
+              "visits": 1
+            },
+            "alkis-berlin-flurstücke": {
+              "impressions": 1,
+              "visits": 1
+            },
+            "atkis-fläche-besonderer-funktionaler-prägung-geschlossen-fläche-wfs": {
+              "impressions": 1,
+              "visits": 1
+            },
+            "gründungen": {
+              "impressions": 1,
+              "visits": 1
+            },
+            "gesundheitsberichterstattung-berlin-gesundheitsindikator-311-lebenserwartung-ohne": {
+              "impressions": 1,
+              "visits": 1
+            },
+            "gesundheitsberichterstattung-berlin-gesundheitszustand-der-bevölkerung-allgemeine-6": {
+              "impressions": 1,
+              "visits": 1
+            },
+            "grundwassertemperatur-durchschnittstemperatur-des-grundwassers-0-m-50-m-unter-0": {
+              "impressions": 1,
+              "visits": 1
+            },
+            "straßenbefahrung-2014-taxirufsäule-wfs": {
+              "impressions": 1,
+              "visits": 1
+            },
+            "digitale-farbige-orthophotos-2011-dop20rgb-wm": {
+              "impressions": 1,
+              "visits": 1
+            },
+            "eckdaten-berufliche-schulen": {
+              "impressions": 1,
+              "visits": 1
+            },
+            "versorgung-mit-öffentlichen-wohnungsnahen-grünanlagen-2020-umweltatlas-wms": {
+              "impressions": 1,
+              "visits": 1
+            },
+            "sozialstatistisches-berichtswesen-berlin-sozialgesetzbuch-ii-sgb-ii-kommunale-ausgaben-0": {
+              "impressions": 1,
+              "visits": 1
+            },
+            "dom-digitales-oberflächenmodell-atom-0": {
+              "impressions": 1,
+              "visits": 1
+            },
+            "straßenverkehrslärm-nacht-22-6-uhr-umweltatlas-wms": {
+              "impressions": 1,
+              "visits": 1
+            },
+            "statistische-blöcke-des-rbs-wfs": {
+              "impressions": 1,
+              "visits": 1
+            },
+            "3d-gebäudemodelle-im-level-detail-2-lod-2-atom": {
+              "impressions": 1,
+              "visits": 1
+            },
+            "digitale-topographische-karte-1-10-000-dtk10-atom": {
+              "impressions": 1,
+              "visits": 1
+            },
+            "verwaltungseinheiten-der-berliner-forsten-wms": {
+              "impressions": 1,
+              "visits": 1
+            },
+            "ausländische-einwohnerinnen-und-einwohner-berlin-lor-planungsräumen-am-31122018": {
+              "impressions": 1,
+              "visits": 1
+            },
+            "einwohnerinnen-und-einwohner-berlin-lor-planungsräumen-am-31122013": {
+              "impressions": 1,
+              "visits": 1
+            },
+            "bundesfernstraßen-atom": {
+              "impressions": 1,
+              "visits": 1
+            },
+            "veränderung-transferbezug-2017-2018-v2-wms": {
+              "impressions": 1,
+              "visits": 1
+            },
+            "gesättigte-wasserdurchlässigkeit-kf-der-böden-2015-umweltatlas-wms": {
+              "impressions": 1,
+              "visits": 1
+            },
+            "ingenieurgeologische-karte-umweltatlas-daten-zur-wfs": {
+              "impressions": 1,
+              "visits": 1
+            },
+            "wanderungssaldo-2017-2018-wms": {
+              "impressions": 1,
+              "visits": 1
+            },
+            "wohnatlas-berlin-wohnungsverkäufe-2004-2009-pro-1000-wohnungen-wms": {
+              "impressions": 1,
+              "visits": 1
+            },
+            "strat-lärmkarte-ln-nacht-index-straßen-u-bahnverkehr-2017-umweltatlas-wms": {
+              "impressions": 1,
+              "visits": 1
+            },
+            "radverkehrsanlagen-verkehrszeichen-wfs": {
+              "impressions": 1,
+              "visits": 1
+            },
+            "standardlastprofil-wärmepumpe-2010": {
+              "impressions": 1,
+              "visits": 1
+            },
+            "transferbezug-2018-v2-wms": {
+              "impressions": 1,
+              "visits": 1
+            },
+            "elektro-ladesäulen-standorte-wfs": {
+              "impressions": 1,
+              "visits": 1
+            },
+            "atkis-bahnverkehrsanlage-fläche-wfs": {
+              "impressions": 1,
+              "visits": 1
+            },
+            "strassenverkehrsunfälle-nach-unfallort-berlin-2018": {
+              "impressions": 1,
+              "visits": 1
+            },
+            "gesundheitsberichterstattung-berlin-kontext-gesundheitsmonitoring-2016": {
+              "impressions": 1,
+              "visits": 1
+            },
+            "afis-berlin-schwerefestpunkte-1-ordnung-wfs": {
+              "impressions": 1,
+              "visits": 1
+            },
+            "alkis-berlin-vegetation-punkte-wfs": {
+              "impressions": 1,
+              "visits": 1
+            },
+            "atkis-bauwerk-oder-anlage-für-sport-freizeit-und-erholung-fläche-wfs": {
+              "impressions": 1,
+              "visits": 1
+            },
+            "standardlastprofil-gewerbe-allgemein-2021-berlin": {
+              "impressions": 1,
+              "visits": 1
+            },
+            "digitale-farbige-orthophotos-2018-dop20rgb": {
+              "impressions": 1,
+              "visits": 1
+            },
+            "gebäude-im-inspire-datenmodell-atom": {
+              "impressions": 1,
+              "visits": 1
+            },
+            "gesundheitsberichterstattung-berlin-beschäftigte-im-gesundheitswesen-personal-im": {
+              "impressions": 1,
+              "visits": 1
+            },
+            "besondere-naturräumliche-eigenart-der-böden-1990-umweltatlas-wms": {
+              "impressions": 1,
+              "visits": 1
+            },
+            "verlauf-der-berliner-mauer-1989-grenzstreifen-wfs": {
+              "impressions": 1,
+              "visits": 1
+            },
+            "baugrundkarte-spandau-wms": {
+              "impressions": 1,
+              "visits": 1
+            },
+            "co2-emissionen-durch-anlagen-nach-dem-treibhausgas-emissionshandelsgesetz-tehg-0": {
+              "impressions": 1,
+              "visits": 1
+            },
+            "bevölkerungszahlen-berlin": {
+              "impressions": 1,
+              "visits": 1
+            },
+            "efre-geförderte-vorhaben-des-landes-berlin-2014-2020": {
+              "impressions": 1,
+              "visits": 1
+            },
+            "standorte-parkleitsystem-berlin": {
+              "impressions": 1,
+              "visits": 1
+            },
+            "gesundheitsberichterstattung-berlin-umweltbezogener-gesundheitsschutz-und-1": {
+              "impressions": 1,
+              "visits": 1
+            },
+            "einwohnerinnen-und-einwohner-berlin-lor-planungsräumen-nach-wohndauer-am-31122009": {
+              "impressions": 1,
+              "visits": 1
+            },
+            "jahresabschluss-2018": {
+              "impressions": 1,
+              "visits": 1
+            },
+            "klimamodell-berlin-entwicklung-der-anzahl-der-tropennächte-der-zukunft-2015-umweltatlas": {
+              "impressions": 1,
+              "visits": 1
+            },
+            "aktuell-geförderte-projekte-1": {
+              "impressions": 1,
+              "visits": 1
+            },
+            "fnp-flächennutzungsplan-berlin-stand-neubekanntmachung-2015-atom": {
+              "impressions": 1,
+              "visits": 1
+            },
+            "straßenbefahrung-2014-gehweg-wfs": {
+              "impressions": 1,
+              "visits": 1
+            },
+            "reparaturführer-charlottenburg-wilmersdorf": {
+              "impressions": 1,
+              "visits": 1
+            },
+            "gebäudealter-der-wohnbebauung-umweltatlas-wfs": {
+              "impressions": 1,
+              "visits": 1
+            },
+            "fluglärmschutzbereich-ber-umweltatlas-wms": {
+              "impressions": 1,
+              "visits": 1
+            },
+            "hobrechtplan-1862-wms": {
+              "impressions": 1,
+              "visits": 1
+            },
+            "einwohnerinnen-und-einwohner-berlin-lor-planungsräumen-am-31122017": {
+              "impressions": 1,
+              "visits": 1
+            },
+            "lichtsignalanlagen-wms": {
+              "impressions": 1,
+              "visits": 1
+            },
+            "grundwassergleichen-des-hauptgrundwasserleiters-2018-umweltatlas-wfs": {
+              "impressions": 1,
+              "visits": 1
+            },
+            "orthofotografie-im-inspire-datenmodell-truedop20rgb-2020-wms": {
+              "impressions": 1,
+              "visits": 1
+            },
+            "biotoptypen-umweltatlas-wms": {
+              "impressions": 1,
+              "visits": 1
+            },
+            "windkraft-standorte-der-windkraftanlagen-wfs": {
+              "impressions": 1,
+              "visits": 1
+            },
+            "vbb-fahrplan2012": {
+              "impressions": 1,
+              "visits": 1
+            },
+            "einwohnerdichte-2013-umweltatlas-wms": {
+              "impressions": 1,
+              "visits": 1
+            },
+            "gesundheitsberichterstattung-berlin-gesundheitszustand-der-bevölkerung-3": {
+              "impressions": 1,
+              "visits": 1
+            },
+            "gesundheitsberichterstattung-berlin-gesundheitszustand-der-bevölkerung-allgemeine-4": {
+              "impressions": 1,
+              "visits": 1
+            },
+            "gästebuch": {
+              "impressions": 1,
+              "visits": 1
+            },
+            "karte-von-berlin-15000-k5-sw-ausgabe-atom": {
+              "impressions": 1,
+              "visits": 1
+            },
+            "geologische-schnitte-umweltatlas-wms": {
+              "impressions": 1,
+              "visits": 1
+            },
+            "hochwassergefahrenkarte-gewässer-umweltatlas-wfs": {
+              "impressions": 1,
+              "visits": 1
+            },
+            "einwohnerinnen-und-einwohner-berlin-lor-planungsräumen-am-31122012": {
+              "impressions": 1,
+              "visits": 1
+            },
+            "entwicklung-luftqualität-emissionen-2015-umweltatlas-wms": {
+              "impressions": 1,
+              "visits": 1
+            },
+            "karte-von-berlin-15000-k5-sw-ausgabe": {
+              "impressions": 1,
+              "visits": 1
+            },
+            "flurabstand-des-grundwassers-1995-umweltatlas-wms": {
+              "impressions": 1,
+              "visits": 1
+            },
+            "einwohnerdichte-2018-umweltatlas-wms": {
+              "impressions": 1,
+              "visits": 1
+            },
+            "langjähriges-mittel-der-lufttemperatur-1961-1990-umweltatlas-wfs": {
+              "impressions": 1,
+              "visits": 1
+            },
+            "atkis-basis-dlm-präsentationsdienst-wms": {
+              "impressions": 1,
+              "visits": 1
+            },
+            "atkis-sport-freizeit-und-erholungsfläche-fläche-wfs": {
+              "impressions": 1,
+              "visits": 1
+            },
+            "einwohnerinnen-und-einwohner-berlin-lor-planungsräumen-am-31122011": {
+              "impressions": 1,
+              "visits": 1
+            },
+            "wasserdurchlässigkeit-des-untergrundes-umweltatlas-wms": {
+              "impressions": 1,
+              "visits": 1
+            },
+            "energieproduktivität-energieintensität-energieverbrauch-je-einwohner": {
+              "impressions": 1,
+              "visits": 1
+            },
+            "atkis-flugverkehrsanlage-fläche-wfs": {
+              "impressions": 1,
+              "visits": 1
+            },
+            "geplante-bodennutzung-im-inspire-datenmodell-erhaltungsverordnungsgebiete-atom": {
+              "impressions": 1,
+              "visits": 1
+            },
+            "gesundheitsberichterstattung-berlin-kontext-bezirke-sonderauswertung-2017": {
+              "impressions": 1,
+              "visits": 1
+            },
+            "projekte-im-masterplan-industriestadt-berlin-2018-2021": {
+              "impressions": 1,
+              "visits": 1
+            },
+            "geothermisches-potenzial-spezifische-entzugsleistung-bis-80-m-für-1800-ha-wms": {
+              "impressions": 1,
+              "visits": 1
+            },
+            "summe-geothermie-anlagen": {
+              "impressions": 1,
+              "visits": 1
+            },
+            "atkis-tagebau-grube-steinbruch-fläche-wfs": {
+              "impressions": 1,
+              "visits": 1
+            },
+            "solaranlagen-pv-und-st-potenzial-der-dachflächen-umweltatlas-atom": {
+              "impressions": 1,
+              "visits": 1
+            },
+            "bodenrichtwerte-01012011-wfs": {
+              "impressions": 1,
+              "visits": 1
+            },
+            "aktuell-geförderte-projekte-14": {
+              "impressions": 1,
+              "visits": 1
+            },
+            "lebensweltlich-orientierte-räume-lor-planungsräume-wfs": {
+              "impressions": 1,
+              "visits": 1
+            },
+            "postleitzahlen-wfs": {
+              "impressions": 1,
+              "visits": 1
+            },
+            "strat-lärmkarte-ln-nacht-index-industrie-und-gewerbe-2012-ua-atom": {
+              "impressions": 1,
+              "visits": 1
+            },
+            "hochwasserrisikokarte-für-hochwasser-mit-hoher-wahrscheinlichkeit-2019-umweltatlas-0": {
+              "impressions": 1,
+              "visits": 1
+            },
+            "bundestagswahl-2009-berlin-nach-wahlbezirken-endgültiges-ergebnis": {
+              "impressions": 1,
+              "visits": 1
+            },
+            "angebote-zur-unterstützung-von-flüchtlingen": {
+              "impressions": 1,
+              "visits": 1
+            },
+            "liste-der-verbannten-bücher-0": {
+              "impressions": 1,
+              "visits": 1
+            },
+            "rbs-adressen-dezember-2016": {
+              "impressions": 1,
+              "visits": 1
+            },
+            "wohnlagen-nach-adressen-zum-berliner-mietspiegel-2017-wfs": {
+              "impressions": 1,
+              "visits": 1
+            },
+            "rieselfelder-umweltatlas-wms": {
+              "impressions": 1,
+              "visits": 1
+            },
+            "gesundheitsberichterstattung-berlin-gesundheitszustand-der-bevölkerung-krankheiten-des": {
+              "impressions": 1,
+              "visits": 1
+            },
+            "afis-berlin-wms": {
+              "impressions": 1,
+              "visits": 1
+            },
+            "berlin-um-1690-wms": {
+              "impressions": 1,
+              "visits": 1
+            },
+            "öffentliche-toiletten-im-bezirk-lichtenberg": {
+              "impressions": 1,
+              "visits": 1
+            },
+            "beschäftigungsdaten": {
+              "impressions": 1,
+              "visits": 1
+            },
+            "uferbäume-wfs": {
+              "impressions": 1,
+              "visits": 1
+            },
+            "gesundheitsberichterstattung-berlin-gesundheitsindikator-215-verfügbares-einkommen-der": {
+              "impressions": 1,
+              "visits": 1
+            },
+            "langjähriges-mittel-der-lufttemperatur-sommer-1981-2010-isoflächen-umweltatlas-wfs": {
+              "impressions": 1,
+              "visits": 1
+            },
+            "staatliche-dienste-im-inspire-datenmodell-polizeidienst-atom": {
+              "impressions": 1,
+              "visits": 1
+            },
+            "laufende-steuereinnahmen-des-landes-berlin": {
+              "impressions": 1,
+              "visits": 1
+            },
+            "langjähriges-mittel-der-lufttemperatur-1961-1990-umweltatlas-wms": {
+              "impressions": 1,
+              "visits": 1
+            },
+            "statistische-einheiten-im-inspire-datenmodell-lebensweltlich-orientierte-räume-wms": {
+              "impressions": 1,
+              "visits": 1
+            },
+            "rbs-plz-postleitzahlengebiete-dezember-2016": {
+              "impressions": 1,
+              "visits": 1
+            },
+            "radverkehrsanlagen-wfs": {
+              "impressions": 1,
+              "visits": 1
+            },
+            "digitale-farbige-orthophotos-2015-dop20rgb-wms": {
+              "impressions": 1,
+              "visits": 1
+            },
+            "gesundheitsberichterstattung-berlin-gesundheitszustand-der-bevölkerung-krankheiten-des-1": {
+              "impressions": 1,
+              "visits": 1
+            },
+            "stadtstruktur-2010-umweltatlas-wms": {
+              "impressions": 1,
+              "visits": 1
+            },
+            "gesundheitsberichterstattung-berlin-gesundheitsindikator-48-body-mass-index-bmi-der": {
+              "impressions": 1,
+              "visits": 1
+            },
+            "gesundheitsberichterstattung-berlin-ausgaben-und-finanzierung-gesundheitsausgaben-nach-2": {
+              "impressions": 1,
+              "visits": 1
+            },
+            "los12022-berlin": {
+              "impressions": 1,
+              "visits": 1
+            },
+            "gesundheitsberichterstattung-berlin-gesundheitsindikator-221-arbeitslose": {
+              "impressions": 1,
+              "visits": 1
+            },
+            "geothermisches-potenzial-spezifische-wärmeleitfähigkeit-bis-100-m-flächen-wfs": {
+              "impressions": 1,
+              "visits": 1
+            },
+            "blockkarte-1-50000-isu50-raumbezug-umweltatlas-2005-wfs": {
+              "impressions": 1,
+              "visits": 1
+            },
+            "einwohnerinnen-und-einwohner-berlin-lor-planungsräumen-am-31122015": {
+              "impressions": 1,
+              "visits": 1
+            },
+            "berichte-und-publikationen-der-oe-qpk-im-bezirksamt-mitte": {
+              "impressions": 1,
+              "visits": 1
+            },
+            "daten-zur-arbeitslosigkeit-für-opendata": {
+              "impressions": 1,
+              "visits": 1
+            },
+            "übersichtskarte-von-berlin-1-50-000-ük50-wms": {
+              "impressions": 1,
+              "visits": 1
+            },
+            "art-der-kanalisation-2005-umweltatlas-wms": {
+              "impressions": 1,
+              "visits": 1
+            },
+            "langjährige-niederschlagsverteilung-sommerhalbjahr-1961-1990-isolinien-umweltatlas-wfs": {
+              "impressions": 1,
+              "visits": 1
+            },
+            "tourismus-berlin": {
+              "impressions": 1,
+              "visits": 1
+            },
+            "orthofotografie-im-inspire-datenmodell-truedop20rgb-2020-atom": {
+              "impressions": 1,
+              "visits": 1
+            },
+            "kindertagesstätten-marzahn-hellersdorf": {
+              "impressions": 1,
+              "visits": 1
+            },
+            "lapro-beschlussfassung-landschaftsbild-programmplan-wfs": {
+              "impressions": 1,
+              "visits": 1
+            },
+            "atkis-wald-fläche-wfs": {
+              "impressions": 1,
+              "visits": 1
+            },
+            "bindungsstärke-der-böden-für-schwermetalle-2015-umweltatlas-wms": {
+              "impressions": 1,
+              "visits": 1
+            },
+            "summenlast-der-netzverluste-2014-berlin": {
+              "impressions": 1,
+              "visits": 1
+            },
+            "straßenbefahrung-2014-wms-1": {
+              "impressions": 1,
+              "visits": 1
+            },
+            "strat-lärmkarte-ln-nacht-index-straßenverkehr-2017-ua-atom": {
+              "impressions": 1,
+              "visits": 1
+            },
+            "aktenplan-der-senatsverwaltung-für-finanzen-0": {
+              "impressions": 1,
+              "visits": 1
+            },
+            "schutzgebiete-im-inspire-datenmodell-denkmale-wms": {
+              "impressions": 1,
+              "visits": 1
+            },
+            "orthofotografie-im-inspire-datenmodell-dop20rgbi-2021-atom": {
+              "impressions": 1,
+              "visits": 1
+            },
+            "fischfauna-wfs": {
+              "impressions": 1,
+              "visits": 1
+            },
+            "kinder-und-jugendliche-mit-migrationshintergrund-2018-v2-wms": {
+              "impressions": 1,
+              "visits": 1
+            },
+            "einzugsgebiete-der-regenwasserkanalisation-differenziert-2017-umweltatlas-wms": {
+              "impressions": 1,
+              "visits": 1
+            },
+            "lebensweltlich-orientierte-räume-lor-prognoseräume-wfs": {
+              "impressions": 1,
+              "visits": 1
+            },
+            "genehmigungsbedürftige-anlagen-betriebsstättenstandorte-umweltatlas-wfs": {
+              "impressions": 1,
+              "visits": 1
+            },
+            "baugrundkarte-spandau-atom": {
+              "impressions": 1,
+              "visits": 1
+            },
+            "gesundheitsberichterstattung-berlin-gesundheitsindikator-45-durchschnittliches-alter-der": {
+              "impressions": 1,
+              "visits": 1
+            },
+            "übersichtskarte-von-berlin-1-50-000-ük50-4-farbig-atom": {
+              "impressions": 1,
+              "visits": 1
+            },
+            "jahresabschluss-2020": {
+              "impressions": 1,
+              "visits": 1
+            },
+            "bodenrichtwert 12305 Berlin": {
+              "impressions": 1,
+              "visits": 1
+            },
+            "geothermisches-potenzial-spezifische-entzugsleistung-bis-60-m-für-2400-ha-wms": {
+              "impressions": 1,
+              "visits": 1
+            },
+            "berlin-txl-teilräume-wfs": {
+              "impressions": 1,
+              "visits": 1
+            },
+            "alkis-berlin-ortsteil-wfs": {
+              "impressions": 1,
+              "visits": 1
+            },
+            "gesundheitsberichterstattung-berlin-kontext-einschulungsuntersuchung-berlin-2014": {
+              "impressions": 1,
+              "visits": 1
+            },
+            "vhs-berlin-statistiken-die": {
+              "impressions": 1,
+              "visits": 1
+            },
+            "elektro-ladesäulen-wms": {
+              "impressions": 1,
+              "visits": 1
+            },
+            "boden-im-inspire-datenmodell-bodenfunktionen-und-planungshinweise-2015-wms": {
+              "impressions": 1,
+              "visits": 1
+            },
+            "blockkarte-1-50000-isu50-raumbezug-umweltatlas-2005-wms": {
+              "impressions": 1,
+              "visits": 1
+            },
+            "landesentwicklungsplan-hauptstadtregion-berlin-brandenburg-lep-hr-nebenkarte-atom": {
+              "impressions": 1,
+              "visits": 1
+            },
+            "gesundheitsberichterstattung-berlin-gesundheitsindikator-219-alleinerziehende-mit": {
+              "impressions": 1,
+              "visits": 1
+            },
+            "gesundheitsberichterstattung-berlin-bevölkerung-und-bevölkerungsspezifische-1": {
+              "impressions": 1,
+              "visits": 1
+            },
+            "standardlastprofil-gewerbe-allgemein-2020-berlin": {
+              "impressions": 1,
+              "visits": 1
+            },
+            "landschaftsplanverfahren-wfs": {
+              "impressions": 1,
+              "visits": 1
+            },
+            "verdiensterhebung-im-land-berlin-und-brandenburg": {
+              "impressions": 1,
+              "visits": 1
+            },
+            "gewässerkarte-wms": {
+              "impressions": 1,
+              "visits": 1
+            },
+            "gesundheitsberichterstattung-berlin-gesundheitszustand-der-bevölkerung-allgemeine-5": {
+              "impressions": 1,
+              "visits": 1
+            },
+            "germany": {
+              "impressions": 1,
+              "visits": 1
+            },
+            "geometrien-abgeordnetenhauswahlkreise-für-die-bundestagswahl-2013-berlin": {
+              "impressions": 1,
+              "visits": 1
+            },
+            "gesundheitsberichterstattung-berlin-bevölkerung-und-bevölkerungsspezifische-6": {
+              "impressions": 1,
+              "visits": 1
+            },
+            "rbs-verkehrsobjekte-straßen-und-plätze-dezember-2014": {
+              "impressions": 1,
+              "visits": 1
+            },
+            "koalitionsvereinbarung-2016-2021": {
+              "impressions": 1,
+              "visits": 1
+            },
+            "arbeitslosigkeit-2018-wms": {
+              "impressions": 1,
+              "visits": 1
+            },
+            "liste-der-verbannten-buecher": {
+              "impressions": 1,
+              "visits": 1
+            },
+            "geologische-karte-1-25000-historische-gk25-umweltatlas-wfs": {
+              "impressions": 1,
+              "visits": 1
+            },
+            "atkis-bauwerk-im-gewässerbereich-linien-wfs": {
+              "impressions": 1,
+              "visits": 1
+            },
+            "sozialstatistisches-berichtswesen-berlin-sozialgesetzbuch-xii-sgb-xii-ab-2005-hilfe": {
+              "impressions": 1,
+              "visits": 1
+            },
+            "blockkarte-1-5000-isu5-raumbezug-umweltatlas-2010-wms": {
+              "impressions": 1,
+              "visits": 1
+            },
+            "straßenbefahrung-2014-abfallbehälter-müllbox-wfs": {
+              "impressions": 1,
+              "visits": 1
+            },
+            "gesundheitsberichterstattung-berlin-einrichtungen-des-gesundheitswesens-ambulante": {
+              "impressions": 1,
+              "visits": 1
+            },
+            "publikationen-des-bezirksamtes-tempelhof-schöneberg-von-berlin": {
+              "impressions": 1,
+              "visits": 1
+            },
+            "blattschnitte-der-digitalen-topographischen-karten-wms": {
+              "impressions": 1,
+              "visits": 1
+            },
+            "bodenrichtwerte-01012017-wms": {
+              "impressions": 1,
+              "visits": 1
+            },
+            "afis-berlin-höhenfestpunkte-1-ordnung-wfs": {
+              "impressions": 1,
+              "visits": 1
+            },
+            "liste-der-häufigen-vornamen-2011": {
+              "impressions": 1,
+              "visits": 1
+            },
+            "gesundheitsberichterstattung-berlin-gesundheitszustand-der-bevölkerung-krankheiten-des-0": {
+              "impressions": 1,
+              "visits": 1
+            },
+            "detailnetz-bauwerke-wfs": {
+              "impressions": 1,
+              "visits": 1
+            },
+            "einwohnerinnen-und-einwohner-berlin-lor-planungsräumen-am-31122016": {
+              "impressions": 1,
+              "visits": 1
+            },
+            "datensaetze": {
+              "impressions": 1,
+              "visits": 1
+            },
+            "fnp-flächennutzungsplan-berlin-stand-neubekanntmachung-2015-wfs": {
+              "impressions": 1,
+              "visits": 1
+            },
+            "einwohnerinnen-und-einwohner-den-ortsteilen-berlins-am-30062016": {
+              "impressions": 1,
+              "visits": 1
+            },
+            "entwicklung-luftqualität-nox-emissionen-kfz-verkehr-hn-2009-umweltatlas-wms": {
+              "impressions": 1,
+              "visits": 1
+            },
+            "energieverbräuche-energieverbrauch-fernwärme-pro-bezirk-wfs": {
+              "impressions": 1,
+              "visits": 1
+            },
+            "gesundheitsberichterstattung-berlin-gesundheitszustand-der-bevölkerung-abgeleitete-1": {
+              "impressions": 1,
+              "visits": 1
+            },
+            "wochen-und-trödelmärkte": {
+              "impressions": 1,
+              "visits": 1
+            },
+            "alkis-berlin-gebäude-linien-wfs": {
+              "impressions": 1,
+              "visits": 1
+            },
+            "digitale-farbige-orthophotos-2017-dop20rgb-wms": {
+              "impressions": 1,
+              "visits": 1
+            },
+            "atkis-denkmalschutzrecht-fläche-wfs": {
+              "impressions": 1,
+              "visits": 1
+            },
+            "adressen-berlin-wfs-2": {
+              "impressions": 1,
+              "visits": 1
+            },
+            "flächennutzung-stadtstruktur-2010-und-versiegelung-2011-umweltatlas-wfs": {
+              "impressions": 1,
+              "visits": 1
+            },
+            "klimawandel-jahresmittel-tage-mit-wärmebelastung-2071-2100-farbreihe-2-umweltatlas-wms": {
+              "impressions": 1,
+              "visits": 1
+            },
+            "mittelmaßstäbige-landwirtschaftliche-standortkartierung-mmk-wms": {
+              "impressions": 1,
+              "visits": 1
+            },
+            "ortsteile-von-berlin-wms-0": {
+              "impressions": 1,
+              "visits": 1
+            },
+            "verarbeitendes-gewerbe-im-land-berlin-und-brandenburg": {
+              "impressions": 1,
+              "visits": 1
+            },
+            "digitale-topographische-karte-1-25-000-dtk25-atom": {
+              "impressions": 1,
+              "visits": 1
+            },
+            "aktenplan-der-senatsverwaltung-für-finanzen": {
+              "impressions": 1,
+              "visits": 1
+            },
+            "aktuell-geförderte-projekte-2": {
+              "impressions": 1,
+              "visits": 1
+            },
+            "gebäude-im-inspire-datenmodell-wms": {
+              "impressions": 1,
+              "visits": 1
+            },
+            "rbs-verkehrsobjekte-straßen-und-plätze-dezember-2016": {
+              "impressions": 1,
+              "visits": 1
+            },
+            "rbs-lor-lebensweltlich-orientierte-räume-dezember-2014": {
+              "impressions": 1,
+              "visits": 1
+            },
+            "branchenübersicht": {
+              "impressions": 1,
+              "visits": 1
+            },
+            "sozialstatistisches-berichtswesen-berlin-statistische-kurzinformationen-hilfe-zur-pflege": {
+              "impressions": 1,
+              "visits": 1
+            },
+            "blockkarte-1-50000-isu50-raumbezug-umweltatlas-2010-wms": {
+              "impressions": 1,
+              "visits": 1
+            },
+            "rbs-lor-lebensweltlich-orientierte-räume-dezember-2015": {
+              "impressions": 1,
+              "visits": 1
+            },
+            "grundwassergleichen-2017-umweltatlas-wms": {
+              "impressions": 1,
+              "visits": 1
+            },
+            "standorte-öffentlicher-schulen-wfs": {
+              "impressions": 1,
+              "visits": 1
+            },
+            "einwohnerinnen-und-einwohner-den-ortsteilen-berlins-am-31122013": {
+              "impressions": 1,
+              "visits": 1
+            },
+            "lapro-beschlussfassung-biotop-und-artenschutz-programmplan-wfs": {
+              "impressions": 1,
+              "visits": 1
+            },
+            "behindertenparkplätze-wfs": {
+              "impressions": 1,
+              "visits": 1
+            },
+            "digitale-farbige-orthophotos-2014-dop20rgb-wms": {
+              "impressions": 1,
+              "visits": 1
+            },
+            "doppelhaushalt-20202021": {
+              "impressions": 1,
+              "visits": 1
+            }
+          },
           "2021-08": {
             "covid-19-berlin-7-tage-inzidenz-nach-altersgruppen-und-meldewochen-gesamtübersicht": {
               "impressions": 578,
@@ -99809,6 +102931,11 @@
       }
     },
     "totals": {
+      "2021-09": {
+        "impressions": 29046,
+        "visits": 10626,
+        "visit_duration_avg": 134.58
+      },
       "2021-08": {
         "impressions": 20847,
         "visits": 7425,
