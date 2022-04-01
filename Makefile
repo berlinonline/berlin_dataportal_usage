@@ -4,7 +4,7 @@ all: stats compress README.pdf
 
 stats:
 	@echo "generate stats"
-	@ruby bin/extract_stats.rb conf/conf.json ${OUT_FOLDER}
+	@ruby bin/extract_stats.rb conf/stat_settings.json ${OUT_FOLDER}
 
 compress:
 	@echo "compress daten_berlin_de.stats.json.tgz"
