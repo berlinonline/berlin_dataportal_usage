@@ -74,11 +74,26 @@ stats = {
   }
 }
 
+site_uri = config['site_uri'].gsub(".", "_")
+json_out_file = "#{site_uri}.stats.json"
+json_out_file = File.join(out_dir, json_out_file)
+
 # get domain stats
 config['domain_analysis']['startTime'] = Date.iso8601(config['startDate'])
 config['domain_analysis']['stopTime'] = Date.today.prev_month.end_of_month.iso8601
 domain_analysis = connector.request_analysis(config['domain_analysis'])
-stats[:totals] = domain_analysis['analysisData'].reverse.map { |entry| [ entry[0] , { :impressions => entry[2].to_i , :visits => entry[1].to_i , :visit_duration_avg => entry[3].to_f } ] }.to_h
+
+# something is wrong with the result here (earliest months all show 0 visits/impressions)
+# so we need to just update the file from last month with the data for the new month, rather than
+# overwriting the whole file
+this_month = stats[:latest]
+new_totals = domain_analysis['analysisData'].reverse.map { |entry| [ entry[0] , { 'impressions' => entry[2].to_i , 'visits' => entry[1].to_i , 'visit_duration_avg' => entry[3].to_f } ] }.to_h
+current_data = JSON.parse(File.read(json_out_file))
+stats[:totals] = current_data['stats']['totals']
+stats[:totals][this_month] = new_totals[this_month]
+puts stats[:totals]
+stats[:totals] = stats[:totals].sort {|x, y| y <=> x}.to_h
+puts stats[:totals]
 
 sub_page_totals = {}
 
@@ -96,10 +111,6 @@ months.each do |month|
 end
 
 stats[:pages][:datensaetze][:sub_page_counts] = sub_page_totals
-
-site_uri = config['site_uri'].gsub(".", "_")
-json_out_file = "#{site_uri}.stats.json"
-json_out_file = File.join(out_dir, json_out_file)
 
 exporter_conf = {:stats => stats}
 exporter_conf[:append_path] = json_out_file unless options[:replace]
