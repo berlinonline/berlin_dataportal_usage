@@ -123,7 +123,7 @@ All software in this repository is published under the [MIT License](LICENSE). A
 
 ---
 
-Dataset URL: [https://daten.berlin.de/datensaetze/zugriffsstatistik-datenberlinde](https://daten.berlin.de/datensaetze/zugriffsstatistik-datenberlinde)
+Dataset URL: [https://daten.berlin.de/datensaetze/zugriffsstatistik-daten-berlin-de](https://daten.berlin.de/datensaetze/zugriffsstatistik-daten-berlin-de)
 
 This page was generated from the github repository at [https://github.com/berlinonline/berlin_dataportal_usage](https://github.com/berlinonline/berlin_dataportal_usage).
 
