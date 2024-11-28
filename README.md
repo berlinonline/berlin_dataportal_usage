@@ -117,6 +117,52 @@ The structure of the data is as follows:
 }
 ```
 
+## Normalization of Dataset Names
+
+In August 2024, the Open Data Portal received a major update, which resulted in slightly changed URLs for many datasets.
+There is a mapping from the old to the new datasets: https://github.com/berlinonline/berlin_dataset_name_mapping
+
+Starting in November 2024, the dataset names in the usage statistics have been normalized to show the new dataset names everywhere, to allow comparisons through time.
+
+In cases where requests to both the old and the new name were made in the same month, both have been combined to a single entry, with the sum of the impressions and visits.
+This normalization is implemented in the [map_dataset_names.py](bin/map_dataset_names.py) script.
+
+For example, there is the following mapping:
+
+```csv
+old_name,new_name
+verlauf-der-berliner-mauer-1989-wms,verlauf-der-berliner-mauer-1989-wms-bc24fb23
+```
+
+In the usage data, there is:
+
+```json
+...
+    "2024-10": {
+      "verlauf-der-berliner-mauer-1989-wms-bc24fb23": {
+        "impressions": 247,
+        "visits": 210
+      },
+      ...
+      "verlauf-der-berliner-mauer-1989-wms": {
+        "impressions": 1,
+        "visits": 1
+      },
+...
+```
+
+These two entries have been combined to:
+
+```json
+...
+    "2024-10": {
+      "verlauf-der-berliner-mauer-1989-wms-bc24fb23": {
+        "impressions": 248,
+        "visits": 211
+      },
+...
+```
+
 ## License
 
 All software in this repository is published under the [MIT License](LICENSE). All data in this repository (in particular the `.csv` and `.json` files) is published under [CC BY 3.0 DE](https://creativecommons.org/licenses/by/3.0/de/).
@@ -127,6 +173,6 @@ Dataset URL: [https://daten.berlin.de/datensaetze/zugriffsstatistik-daten-berlin
 
 This page was generated from the github repository at [https://github.com/berlinonline/berlin_dataportal_usage](https://github.com/berlinonline/berlin_dataportal_usage).
 
-2020, Knud Möller, [BerlinOnline GmbH](https://www.berlinonline.net)
+2024, Knud Möller, [BerlinOnline GmbH](https://www.berlinonline.net)
 
-Last changed: 2024-11-27
+Last changed: 2024-11-28
