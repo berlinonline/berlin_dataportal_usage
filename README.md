@@ -173,6 +173,6 @@ Dataset URL: [https://daten.berlin.de/datensaetze/zugriffsstatistik-daten-berlin
 
 This page was generated from the github repository at [https://github.com/berlinonline/berlin_dataportal_usage](https://github.com/berlinonline/berlin_dataportal_usage).
 
-2024, Knud Möller, [BerlinOnline GmbH](https://www.berlinonline.net)
+2025, Knud Möller, [BerlinOnline GmbH](https://www.berlinonline.net)
 
-Last changed: 2025-01-23
+Last changed: 2025-02-06
