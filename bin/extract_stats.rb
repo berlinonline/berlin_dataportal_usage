@@ -61,14 +61,18 @@ config = JSON.parse(File.read(conf_path))
 connector = WebtrekkConnector.new(options)
 connector.login
 
+# replace end_month with a specific month if needed
+end_month = Date.today.prev_month
+# end_month = Date.new(2025, 4)
+
 stats = {
   :site_uri => config['site_uri'] ,
   :earliest => config['startDate'][0..6] ,
-  :latest => Date.today.prev_month.end_of_month.iso8601[0..6] ,
+  :latest => end_month.end_of_month.iso8601[0..6] ,
   :pages => {
     :datensaetze => {
       :earliest => config['startDate'] ,
-      :latest => Date.today.prev_month.end_of_month.iso8601 ,
+      :latest => end_month.end_of_month.iso8601 ,
       :page_uri => config['per_dataset_analysis']['analysisFilter']['filterRules'].first['filter']
     }
   }
@@ -80,7 +84,7 @@ json_out_file = File.join(out_dir, json_out_file)
 
 # get domain stats
 config['domain_analysis']['startTime'] = Date.iso8601(config['startDate'])
-config['domain_analysis']['stopTime'] = Date.today.prev_month.end_of_month.iso8601
+config['domain_analysis']['stopTime'] = end_month.end_of_month.iso8601
 domain_analysis = connector.request_analysis(config['domain_analysis'])
 
 # something is wrong with the result here (earliest months all show 0 visits/impressions)
@@ -98,7 +102,7 @@ puts stats[:totals]
 sub_page_totals = {}
 
 # get per-dataset stats
-last = Date.today.prev_month
+last = end_month
 first = options[:all_months] ? Date.iso8601(config['startDate']) : last
 months = StatsExporter.month_list(first, last)
 months.each do |month|
