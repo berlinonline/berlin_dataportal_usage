@@ -1,0 +1,94 @@
+{
+    "site_uri" : "daten.berlin.de" ,
+    "startDate": "2019-02-01" ,
+    "datasets": {
+        "resultType": "DATA_ONLY",
+        "queryObject": {
+            "columns": [
+                {
+                    "name": "page_url",
+                    "scope": "OBJECT",
+                    "context": "PAGE",
+                    "variant": "NORMAL",
+                    "lowerLimit": 1,
+                    "upperLimit": 10000
+                },
+                {
+                    "name": "visits",
+                    "columnPeriod": "ANALYSIS",
+                    "sortDirection": "DESCENDING",
+                    "sortIndex": 1,
+                    "scope": "OBJECT",
+                    "context": "SESSION"
+                },
+                {
+                    "name": "pages_pageImpressions",
+                    "columnPeriod": "ANALYSIS",
+                    "sortDirection": "DESCENDING",
+                    "sortIndex": 2,
+                    "scope": "OBJECT",
+                    "context": "PAGE"
+                }
+            ],
+            "predefinedContainer": {
+                "filters": [
+                    {
+                        "name": "pages",
+                        "connector": "AND",
+                        "filterPredicate": "LIKE",
+                        "value1": "daten.berlin.de/datensaetze/*",
+                        "value2": "",
+                        "context": "PAGE",
+                        "caseSensitive": false
+                    }
+                ],
+                "containers": []
+            },
+            "variant": "LIST"
+        }
+    },
+    "totals": {
+        "resultType": "DATA_ONLY",
+        "queryObject": {
+            "columns": [
+                {
+                    "name": "time_years",
+                    "context": "TIME"
+                },
+                {
+                    "name": "visits",
+                    "columnPeriod": "ANALYSIS",
+                    "scope": "OBJECT",
+                    "context": "SESSION"
+                },
+                {
+                    "name": "pages_pageImpressions",
+                    "columnPeriod": "ANALYSIS",
+                    "scope": "OBJECT",
+                    "context": "PAGE"
+                },
+                {
+                    "name": "visit_duration_avg",
+                    "columnPeriod": "ANALYSIS",
+                    "scope": "OBJECT",
+                    "context": "PAGE"
+                }
+            ],
+            "predefinedContainer": {
+                "filters": [
+                    {
+                        "name": "pages",
+                        "connector": "AND",
+                        "filterPredicate": "LIKE",
+                        "value1": "daten.berlin.de/*",
+                        "value2": "",
+                        "context": "PAGE",
+                        "caseSensitive": false
+                    }
+                ],
+                "containers": []
+            },
+            "variant": "AGGREGATED"
+        }
+    }
+}

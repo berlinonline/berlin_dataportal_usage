@@ -2,29 +2,33 @@
 
 ![logo for "daten.berlin.de Usage Statistics" dataset](image/daten-berlin-de-stats-social-preview_small.png)
 
-This dataset contains usage statistics (page impressions and visits) for the Berlin Open Data Portal [https://daten.berlin.de](https://daten.berlin.de). Statistics are collected per month, both for the domain as such, and for all datasets (pages below `/datensaetze`).
+This dataset contains usage statistics (page impressions and visits) for the Berlin Open Data Portal [https://daten.berlin.de](https://daten.berlin.de).
+Statistics are collected per month, both for the domain as a whole, and for all individual datasets (pages below `/datensaetze`).
 
-Statistics are given in both CSV (split over two files) and JSON (one combined file).
+Statistics are given in both CSV (domain totals only) and JSON (one combined file).
 
-Until 2019-12-31, usage statistics were collected with our internal _BerlinOnline Site Statistics_ (BOSS) tool. As of 2020-01-01 we have stopped using BOSS on the Berlin Open Data Portal, and have replaced it with [Webtrekk Analytics](https://www.webtrekk.com/de/produkte/analytics/). Webtrekk has been in use since February 2019. While BOSS and Webtrekk provide the same metrics, the actual results differ. We have written a little bit on [how and possible why BOSS and Webtrekk differ with respect to their results](boss-vs-webtrekk.md).
+Starting with the 2025-07 data, we have introduced several changes:
 
-The historic BOSS data has been moved to `data/historical`, while the current Webtrekk data resides in `data/current`.
+- We stopped using the deprecated JSON-RPC-API and are now using the [Mapp Analytics API](https://docs.mapp.com/v1-api/apidocs/home).
+- We have replaced the old Ruby code with Python code.
+- We have stopped generating the per-dataset-CSV file, because it became too big and unwieldy (the last version from 2025-06 had 155 columns).
+All data is included in the combined JSON file: [daten_berlin_de.stats.json](data/current/daten_berlin_de.stats.json).
+
+
+Until 2019-12-31, usage statistics were collected with our internal _BerlinOnline Site Statistics_ (BOSS) tool. As of 2020-01-01 we have stopped using BOSS on the Berlin Open Data Portal, and have replaced it with [Mapp Analytics](https://mapp.com/de/mapp-cloud/analytics/). Mapp (formerly Webtrekk) has been in use since February 2019. While BOSS and Mapp provide the same metrics, the actual results differ. We have written a little bit on [how and possible why BOSS and Mapp differ with respect to their results](boss-vs-webtrekk.md).
+
+The historic BOSS data has been moved to `data/historical`, while the current Mapp data resides in `data/current`.
 
 ## Requirements
 
-The code to extract the usage statistics is written in Ruby. It has been tested with Ruby 2.7.1.
+The code to extract the usage statistics is written in Python.
+It has been tested with Python 3.13.
 
-The required gems are defined in the [Gemfile](Gemfile). In particuler, these are:
+The required gems are defined in the [data-requirements.txt](data-requirements.txt) file. In particuler, these are:
 
-- [webtrekk_connector](https://rubygems.org/gems/webtrekk_connector)
-- [ruby-keychain](https://rubygems.org/gems/ruby-keychain)
-- [activesupport](https://rubygems.org/gems/activesupport)
-
-If you have [bundler](https://bundler.io), you can install the required gems as follows:
-
-```
-bundle install
-```
+- python-dateutil
+- requests
+- keyring (only if you're running this on Mac OS and have the Mapp PW stored in your keychain)
 
 ## daten_berlin_de.domain_stats.csv
 
@@ -41,26 +45,13 @@ month,impressions,visits,visit_duration_avg_seconds
 ...
 ```
 
-## daten_berlin_de.page_stats.datensaetze.csv
-
-Download here: [daten_berlin_de.page_stats.datensaetze.csv](https://berlinonline.github.io/berlin_dataportal_usage/data/current/daten_berlin_de.page_stats.datensaetze.csv)
-
-Per-dataset statistics. One row per dataset, two columns per month (page impressions and visits).
-
-```
-page,2013-04-01 pi,2013-04-01 pv, ... ,2018-05-01 pi,2018-05-01 pv
-liste-der-h%C3%A4ufigen-vornamen-2017,,, ... ,279,246
-alkis-berlin-amtliches-liegenschaftskatasterinformationssystem,,, ... ,211,185
-...
-```
-
 ## daten_berlin_de.stats.json
 
 Download here: [daten_berlin_de.stats.json.tgz](https://berlinonline.github.io/berlin_dataportal_usage/data/current/daten_berlin_de.stats.json.tgz) (compressed)
 
 The structure of the data is as follows:
 
-* `/source` - From which source system the statistics were generated. One of `[ "Webtrekk", "Boss" ]`.
+* `/source` - From which source system the statistics were generated. One of `[ "Mapp", "Webtrekk", "Boss" ]`.
 * `/timestamp` - when these usage statistics were generated
 * `/stats/site_uri` - domain of the data portal
 * `/stats/earliest` - first month for which domain-wide statistics have been collected
@@ -175,4 +166,4 @@ This page was generated from the github repository at [https://github.com/berlin
 
 2025, Knud Möller, [BerlinOnline GmbH](https://www.berlinonline.net)
 
-Last changed: 2025-07-08
+Last changed: 2025-08-26

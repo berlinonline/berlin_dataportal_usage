@@ -1,10 +1,14 @@
 OUT_FOLDER=data/current
 
-all: stats compress README.pdf
+all: json_stats csv_stats compress README.pdf
 
-stats:
-	@echo "generate stats"
-	@ruby bin/extract_stats.rb conf/stat_settings.json ${OUT_FOLDER}
+json_stats:
+	@echo "generate JSON stats"
+	@python bin/extract_stats.py
+
+csv_stats: json_stats
+	@echo "generate CSV stats (totals only)"
+	@python bin/json2csv.py
 
 compress:
 	@echo "compress daten_berlin_de.stats.json.tgz"
