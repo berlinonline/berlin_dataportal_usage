@@ -24,7 +24,7 @@ The historic BOSS data has been moved to `data/historical`, while the current Ma
 The code to extract the usage statistics is written in Python.
 It has been tested with Python 3.13.
 
-The required gems are defined in the [data-requirements.txt](data-requirements.txt) file. In particuler, these are:
+The required libraries are defined in [data-requirements.txt](data-requirements.txt). In particular, these are:
 
 - python-dateutil
 - requests
