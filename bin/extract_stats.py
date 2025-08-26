@@ -1,13 +1,14 @@
 import argparse
+import calendar
 import json
 import logging
 import os
 import sys
 from argparse import Namespace
-from datetime import datetime
+from datetime import date, datetime
 from time import sleep
-from urllib.parse import quote, unquote
 
+import dateutil
 import requests
 from dateutil.relativedelta import relativedelta
 
@@ -214,6 +215,10 @@ latest = months[-1]
 
 out_data['stats']['earliest'] = earliest
 out_data['stats']['latest'] = latest
+
+latest_obj = dateutil.parser.isoparse(latest)
+last_day = calendar.monthrange(latest_obj.year, latest_obj.month)[1]
+out_data['stats']['pages']['datensaetze']['latest'] = datetime(latest_obj.year, latest_obj.month, last_day).isoformat()[0:10]
 
 # prepare and run analysis for totals:
 
