@@ -30,3 +30,16 @@ date.txt:
 	@date "+Last changed: %Y-%m-%d" > date.txt
 
 .PHONY: README.md date.txt compress
+
+# individual datasets
+
+data/report/%.json: data/current/daten_berlin_de.stats.json
+	jq --arg page "$*" \
+	'.stats.pages.datensaetze.sub_page_counts | \
+	with_entries(select(.value[$$page]) | \
+	.value = .value[$$page])' $< > $@
+
+data/report/%.csv: data/report/%.json
+	cat $< | jq -r 'to_entries \
+	| (["month","impressions","visits"] | @csv), (.[] | \
+	[.key, .value.impressions, .value.visits] | @csv)' > $@

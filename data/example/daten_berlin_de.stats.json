@@ -1,0 +1,51 @@
+{
+  "timestamp": "2026-07-10T14:32:36.944449",
+  "source": "Mapp",
+  "stats": {
+    "site_uri": "daten.berlin.de",
+    "earliest": "2019-02",
+    "latest": "2026-06",
+    "pages": {
+      "datensaetze": {
+        "earliest": "2019-02-01",
+        "latest": "2026-06-30",
+        "page_uri": "daten.berlin.de/datensaetze/*",
+        "sub_page_counts": {
+          "2026-06": {
+            "baumbestand-berlin-wms-52e6ddaa": {
+              "impressions": 1032,
+              "visits": 671
+            },
+            "verlauf-der-berliner-mauer-1989-wms-bc24fb23": {
+              "impressions": 692,
+              "visits": 561
+            },
+            "abitur-ergebnisse-2025-1612167": {
+              "impressions": 903,
+              "visits": 501
+            }
+          },
+          "2025-05": {
+            "baumbestand-berlin-wms-52e6ddaa": {
+              "impressions": 332,
+              "visits": 232
+            },
+            "vbb-fahrplandaten-via-gtfs": {
+              "impressions": 385,
+              "visits": 190
+            },
+            "verlauf-der-berliner-mauer-1989-wms-bc24fb23": {
+              "impressions": 216,
+              "visits": 185
+            },
+            "postleitzahlen-wms-e866ac77": {
+              "impressions": 184,
+              "visits": 152
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
