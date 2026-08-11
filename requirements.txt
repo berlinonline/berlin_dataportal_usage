@@ -1,1 +1,2 @@
 ckan-metadata-updater @ git+https://github.com/berlinonline/ckan_metadata_updater
+pytz

@@ -5,16 +5,20 @@ import logging
 import os
 import sys
 from argparse import Namespace
-from datetime import date, datetime
+from datetime import datetime
 from time import sleep
 
 import dateutil
+import pytz
 import requests
 from dateutil.relativedelta import relativedelta
 
 MAPP_URL = os.environ['MAPP_URL']
 MAPP_USER = os.environ['MAPP_USER']
 MAPP_PW = os.environ.get('MAPP_PW')
+LOGGER = logging.getLogger(__name__)
+TZ_NAME = 'Europe/Berlin'
+TZ = pytz.timezone(TZ_NAME)
 
 def get_token(user: str, password: str)-> str:
     '''Get an access token from Mapp for a given user and password.'''
@@ -26,12 +30,12 @@ def get_token(user: str, password: str)-> str:
     try:
         response = requests.request("POST", url, auth=(user, password), params=querystring)
     except requests.exceptions.RequestException as e:
-        logging.error(f" Failed to connect and authorize: {e}")
+        LOGGER.error(f" Failed to connect and authorize: {e}")
         sys.exit(1)
 
     # something went wrong
     if response.status_code != 200:
-        logging.error(f" Autorization returned {str(response)}")
+        LOGGER.error(f" Autorization returned {response}")
         sys.exit(1)
 
     # get the token (make a dictionary using json, then extract the actual token)
@@ -54,9 +58,9 @@ def run_analysis_query(query: str, token: str) -> dict:
 
         response = requests.request("POST", url, data=payload, headers=headers)
         if response.status_code > 201:
-            logging.error(f" Call to analysis-query failed: {response}")
-            logging.error(response.text)
-            exit()
+            LOGGER.error(f" Call to analysis-query failed: {response}")
+            LOGGER.error(response.text)
+            sys.exit()
         # unpack the response
         values = json.loads(response.text)
 
@@ -64,18 +68,18 @@ def run_analysis_query(query: str, token: str) -> dict:
         statusUrl = values.get('statusUrl', False)
         while not resultUrl:
             sleep(0.5)
-            logging.info(f" calling {statusUrl}")
+            LOGGER.info(f" calling {statusUrl}")
             # call the status URL, and refresh the values of the URLs
             response = requests.request("GET", statusUrl, headers=headers)
             values = json.loads(response.text)
             resultUrl = values.get('resultUrl', False)
 
-        logging.info(f" we have a result at {resultUrl}")
+        LOGGER.info(f" we have a result at {resultUrl}")
         response = requests.request("GET", resultUrl, headers=headers)
         data = json.loads(response.text)
     except requests.exceptions.RequestException as e:
         # something went wrong
-        logging.error(f" Failed to retrieve analysis: {e}")
+        LOGGER.error(f" Failed to retrieve analysis: {e}")
         sys.exit(1)
 
     return data
@@ -84,17 +88,17 @@ def time_range_for_month(month: str) -> tuple[str, str]:
     '''Return the start and end time of a time range defined by a year-month (YYYY-MM).'''
     # Parse the input string to a datetime object
     try:
-        start_date = datetime.strptime(month, "%Y-%m")
+        start_date = datetime.strptime(month, "%Y-%m").replace(tzinfo=TZ)
     except ValueError as e:
-        logging.error(" --month must be either YYYY-MM or 'previous'.")
+        LOGGER.error(" --month must be either YYYY-MM or 'previous'.")
         sys.exit(1)
 
     # Calculate the first day of the next month
     # If it's December, move to the next January of the following year
     if start_date.month == 12:
-        next_month_date = datetime(start_date.year + 1, 1, 1)
+        next_month_date = datetime(start_date.year + 1, 1, 1, tzinfo=TZ)
     else:
-        next_month_date = datetime(start_date.year, start_date.month + 1, 1)
+        next_month_date = datetime(start_date.year, start_date.month + 1, 1, tzinfo=TZ)
     
     # Format both dates to the desired string format
     start_str = start_date.strftime("%Y-%m-%d %H:%M:%S")
@@ -124,12 +128,12 @@ def time_filter_for_month(time_filter: dict, month: str) -> dict:
 def load_json_file(parameter: str, args: Namespace) -> dict:
     '''Load a json file from `file_path` for `parameter`.'''
     path = getattr(args, parameter)
-    logging.info(f" loading {parameter} data from {path} ...")
+    LOGGER.info(f" loading {parameter} data from {path} ...")
     if os.path.isfile(path):
-        config_file = open(path)
-        config = json.load(config_file)
+        with (open(path)) as config_file:
+            config = json.load(config_file)
     else:
-        logging.error(f" --{parameter} must be a filepath.")
+        LOGGER.error(f" --{parameter} must be a filepath.")
         sys.exit(1)
     return config
 
@@ -138,8 +142,8 @@ def build_payload(config: dict, key: str, time_filter: dict) -> str:
     filters.append(time_filter)
 
     payload = json.dumps(config[key])
-    logging.info(f" '{key}' query defined ...")
-    logging.info(json.dumps(payload, indent=2))
+    LOGGER.info(f" '{key}' query defined ...")
+    LOGGER.info(json.dumps(payload, indent=2))
     return payload
 
 
@@ -165,11 +169,11 @@ if not MAPP_PW:
     try:
         import keyring
     except ImportError:
-        logging.error(" could not import 'keyring', and MAPP_PW is not set")
+        LOGGER.error(" could not import 'keyring', and MAPP_PW is not set")
         sys.exit(1)
     MAPP_PW = keyring.get_password('mapp_api', MAPP_USER)
 token = get_token(MAPP_USER, MAPP_PW)
-logging.info(" token received ...")
+LOGGER.info(" token received ...")
 
 time_filter = {
     "connector": "AND",
@@ -179,19 +183,19 @@ time_filter = {
 
 month = args.month
 if month == 'previous':
-    now = datetime.now()
+    now = datetime.now(tz=TZ)
     previous_month = now - relativedelta(months=1)
     month = previous_month.strftime("%Y-%m")
-    logging.info(f" 'previous' evaluated to {month}")
+    LOGGER.info(f" 'previous' evaluated to {month}")
 
-logging.info(f" adjusitng time filter to {month} ...")
+LOGGER.info(f" adjusitng time filter to {month} ...")
 time_filter = time_filter_for_month(time_filter, month)
 
 # prepare and run analysis for dataset pages:
 
 payload = build_payload(config, 'datasets', time_filter)
 data = run_analysis_query(payload, token)
-logging.info(" query run ...")
+LOGGER.info(" query run ...")
 
 dataset_list = data['rows']
 datasets_dict = {}
@@ -204,12 +208,12 @@ for dataset in dataset_list:
     dataset_name = dataset[0].split('/')[-1]
     datasets_dict[dataset_name] = dataset_dict
 
-out_data['timestamp'] = datetime.isoformat(datetime.now())
+out_data['timestamp'] = datetime.isoformat(datetime.now(tz=TZ))
 out_data['stats']['pages']['datensaetze']['sub_page_counts'][month] = datasets_dict
 
 out_data['stats']['pages']['datensaetze']['sub_page_counts'] = {k: out_data['stats']['pages']['datensaetze']['sub_page_counts'][k] for k in sorted(out_data['stats']['pages']['datensaetze']['sub_page_counts'], reverse=True)}
 
-months = sorted(list(out_data['stats']['pages']['datensaetze']['sub_page_counts'].keys()))
+months = sorted(out_data['stats']['pages']['datensaetze']['sub_page_counts'].keys())
 earliest = months[0]
 latest = months[-1]
 
@@ -218,13 +222,13 @@ out_data['stats']['latest'] = latest
 
 latest_obj = dateutil.parser.isoparse(latest)
 last_day = calendar.monthrange(latest_obj.year, latest_obj.month)[1]
-out_data['stats']['pages']['datensaetze']['latest'] = datetime(latest_obj.year, latest_obj.month, last_day).isoformat()[0:10]
+out_data['stats']['pages']['datensaetze']['latest'] = datetime(latest_obj.year, latest_obj.month, last_day, tzinfo=TZ).isoformat()[0:10]
 
 # prepare and run analysis for totals:
 
 payload = build_payload(config, 'totals', time_filter)
 data = run_analysis_query(payload, token)
-logging.info(" query run ...")
+LOGGER.info(" query run ...")
 
 # I should get back rows like this:
 # [
@@ -250,14 +254,14 @@ totals_row = data['rows'][-1]
 month_total = {
     "impressions": totals_row[2],
     "visits": totals_row[1],
-    "visit_duration_avg": float("{:.2f}".format(totals_row[3]))
+    "visit_duration_avg": float(f"{totals_row[3]:.2f}")
 }
 out_data['stats']['totals'][month] = month_total
 # sort in descending order by year-month
 out_data['stats']['totals'] = {k: out_data['stats']['totals'][k] for k in sorted(out_data['stats']['totals'], reverse=True)}
 
 out_json = json.dumps(out_data, indent=2, ensure_ascii=False)
-logging.info(f" writing output to {args.outfile} ...")
+LOGGER.info(f" writing output to {args.outfile} ...")
 with open(args.outfile, 'w') as output:
     output.write(out_json)
 
