@@ -10,6 +10,31 @@ Statistics are given in both CSV (domain totals only) and JSON (one combined fil
 Starting with the 2025-07 data, we have introduced several changes:
 
 - We stopped using the deprecated JSON-RPC-API and are now using the [Mapp Analytics API](https://docs.mapp.com/v1-api/apidocs/home).
+- The analytics API adds a totals object with the key `000000000` at the end of each month, like this:
+
+```json
+{
+…
+  "2026-06": {
+    "baumbestand-berlin-wms-52e6ddaa": {
+      "impressions": 1032,
+      "visits": 671
+    },
+    "verlauf-der-berliner-mauer-1989-wms-bc24fb23": {
+      "impressions": 692,
+      "visits": 561
+    },
+    …
+    "0000000000": {
+      "impressions": 32571,
+      "visits": 15375
+    }
+  }
+…
+}
+```
+
+- The totals in the `0000000000` object are not exactly equal to the sum of the `impressions` and `visits` in the preceeding rows. It's not quite clear why.
 - We have replaced the old Ruby code with Python code.
 - We have stopped generating the per-dataset-CSV file, because it became too big and unwieldy (the last version from 2025-06 had 155 columns).
 All data is included in the combined JSON file: [daten_berlin_de.stats.json](data/current/daten_berlin_de.stats.json).
@@ -166,4 +191,4 @@ This page was generated from the github repository at [https://github.com/berlin
 
 2026, Knud Möller, [BerlinOnline GmbH](https://www.berlinonline.net)
 
-Last changed: 2026-07-10
+Last changed: 2026-08-11
