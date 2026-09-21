@@ -89,7 +89,7 @@ def time_range_for_month(month: str) -> tuple[str, str]:
     # Parse the input string to a datetime object
     try:
         start_date = datetime.strptime(month, "%Y-%m").replace(tzinfo=TZ)
-    except ValueError as e:
+    except ValueError:
         LOGGER.error(" --month must be either YYYY-MM or 'previous'.")
         sys.exit(1)
 
